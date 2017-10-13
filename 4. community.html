@@ -51,6 +51,29 @@ class: center, middle
 ---
 class: center, middle
 
+#Summary so far
+Free software is a philosophical concept which has been translated in a legal world (licenses) and an economic world (business models). But what about technical (code) and humans (communities)
+
+---
+class: center, middle
+
+#Your open source project
+- A scope
+- A name
+- A list of features for the roadmap
+
+---
+class: center, middle
+
+#Your open source project
+- A scope
+- A name
+- A list of features for the roadmap
+- The very first feature of the first release
+
+---
+class: center, middle
+
 #The code
 
 ???
@@ -83,10 +106,18 @@ class: center, middle
 ---
 class: center, middle
 
-#First Revision control system
-- RVCS?  (à vérifier)
-- CVS
-- SVN
+#First generation Revision control system
+- RCS, SCCS
+- One file at a time (lock)
+
+---
+class: center, middle
+
+# Second generation revision control system
+- CVS (1990), SVN (2000)
+- Merge before commit
+- Centralized
+
 
 ???
 Centralised. User need an account to commit. You cannot do anything locally. Big commits. Branches only for existing developpers.
@@ -94,13 +125,53 @@ Centralised. User need an account to commit. You cannot do anything locally. Big
 ---
 class: center, middle
 
-#Distributed Version Control System
-- Mercurial
-- Bazaar
-- Git
+#Distributed Version Control System (2005)
+- Mercurial, Bazaar, Git
+- Commit before merge
+- Decentralized
+???
+Everybody can work on its own branch
+
+---
+class: center, middle
+
+#Bazaar (bzr)
+- Complicate history of GNU tla, baz, bazaar-ng
+- Current version started in 2005
+- Written in Python, easy to use but slow with big files.
+- GNU project maintained by Canonical
+- Started to die in 2012-2013
+
+
+---
+class: center, middle
+#Git (started in 2005)
+- Take Concurrent Versions System (CVS) as an example of what not to do; if in doubt, make the exact opposite decision
+- Support a distributed, BitKeeper-like workflow[11]
+- Include very strong safeguards against corruption, either accidental or malicious[10]
+- Written as a filesystem, not a version control system
+- Was very complex to use but very fast.
+
 
 ???
-Story of git. War between the 3. Git seems to be the big winner.
+Guess who wrote it
+
+---
+class: center, middle
+> >  The name "git" was given by Linus Torvalds when he wrote the very first version. He described the tool as "the stupid content tracker" and the name as (depending on your way):
+>>
+>> - random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronunciation of "get" may or may not be relevant.
+>> - stupid. contemptible and despicable. simple. Take your pick from the dictionary of slang.
+>> - "global information tracker": you're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room.
+>> - "g*dd*mn idiotic truckload of sh*t": when it breaks
+
+---
+class: center, middle
+#Mercurial (hg)
+- Started at the same time as git
+- With the same requirement
+- Git vs Hg is the new Vim vs Emacs
+- Used by Facebook and Mozilla
 
 ---
 class: center, middle
@@ -109,21 +180,21 @@ class: center, middle
 - Launchpad (bazaar)
 - Github (proprietary!)
 - Gitlab
-- Gitorious
+- Bitbucket (mercurial, git since 2011)
+- Gitorious (now closed)
 - Keybase : encrypted end-2-end git repositories
+- …
+
+???
+Many others: https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities
 
 ---
 class: center, middle
 
 #Not everything is code
 - Need for a way to communicate
-- A way to store what is not code
 - Project management
-
----
-class: center, middle
-
-#Wiki
+- A way to store what is not code
 
 ---
 class: center, middle
@@ -135,6 +206,7 @@ class: center, middle
 - XMPP chatrooms (Jabber)
 - Now Slack (proprietary)
 - Keybase (it's new!)
+- Free slack clones: Rocket Chat, Mattermost, …
 
 ---
 class: center, middle
@@ -142,7 +214,20 @@ class: center, middle
 #Project management through bug trackers
 - Bugzilla
 - Launchpad
-- 
+- Github
+- JIRA
+- many others…
+
+???
+Funny thing: bugzilla is now hosted on github!
+
+---
+class: center, middle
+
+#Bugtracking is a key to an healthy project
+- Know the bug tracker health
+- Know who are the bug triagers
+- Know the bugtracking conventions
 
 ???
 Lot of discussions happen there
@@ -150,17 +235,171 @@ Lot of discussions happen there
 ---
 class: center, middle
 
-#Trolls and bicycle sheding
+#Documentation, marketing, …
+- Static websites
+- CMS
+- Wiki
+
+???
+First wiki in 95 but the concept becomes really popular around 2000-2002. It's a great tool to gather collective intelligence.
+
+---
+class: center, middle
+
+#Taking decisions
+- About the code to merge
+- About when and what to release 
+- About the features and the roadmap
+- About the evolution of the project as a whole.
+
+
+---
+class: center, middle
+
+#Merging code
+- It always boiled down to one people doing the merge
+- Github allows a more collaborative approach
+- git blame 
+
+
+---
+class: center, middle
+
+#Release management
+- The release manager might not be a coder
+- Ensuring that the planned features are tested and bug tracker under control
+- Coordination with the documentation and translation teams
+- Bundling everything as packages
+- Writing release notes (with screenshots)
+- Coordination with the marketing team
+
+
+---
+class: center, middle
+
+#Release strategies
+- Release often, release early
+- Release when it's ready (Debian) : numbers
+- Release at a fixed schedule (Ubuntu) : dates
+- Nightly, Alpha, Beta, Interface freeze, String freeze, Release Candidate, Release, Minor releases.
+
+???
+With fixed schedules, the numbers looses their meaning (GNOME, Firefox, Chrome), except when it's the date, like Ubuntu.
+
+Nightly are build directly from the trunk. They can be unstable. Historically, trunk was unstable then there was a "freeze" date to stabilise and fix bugs. Nowadays, a good practice is that the trunk should always be usable. Unstable development should happen in branches. This has been made possible thanks to Git. It was harder to do with a centralised approach like SVN.
+
+When a project has the trunk unstable and dev cannot fix it quickcly, it is said to be "dev hell" where you can't really accept new features before solving all the other problems or you risk to make it even more complex to fix.
+
+
+---
+class: center, middle
+
+#Taking decisions
+- One man (dictatorship)
+- Committees, boards, …
+- Community driven
+- Vote for issues on the bugtracker
+
+
+---
+class: center, middle
+
+#Meritocracy
+"Every open source project is a meritocracy where most decisions are taken by a small minority. That minority has gained the power to take decision through his recognized work. That minority has the power to make the project appear as community driven by listenning to ideas and recommendations."
+
+---
+class: center, middle
+
+#Dictatorship
+- Linux : Linus Torvalds
+- Ubuntu : Mark Shuttleworth (sabdfl)
+
+???
+
+self-appointed benevolent dictator for life
+---
+class: center, middle
+
+#Trolls
+
+---
+class: center, middle
+
+#Bicycle sheding
+
+
+---
+class: center, middle
+background-image: url(https://github.com/ploum/lingi2401/raw/master/images/userlinux.jpg)
+
+???
+UserLinux story
 
 ---
 class: center, middle
 
 #Fork
+- Openoffice -> Libreoffice
+- B2 -> Wordpress
+- Sodipodi -> Inkscape
+- NetBSD -> OpenBSD
+
+???
+Also, sometimes projects merge. It's not all about forks.
+https://fr.wikipedia.org/wiki/Fork_(d%C3%A9veloppement_logiciel)
 
 ---
 class: center, middle
 
+#Is this a fork?
+- Debian -> Ubuntu
 
+---
+class: center, middle
+
+#How to explore a project?
+- Who are the people taking the decisions? (usually, the core commiters)
+- What are the main communication channels? (are the deciders available on it?)
+- What's the vision for the near future?
+- What are the current challenges?
+
+---
+class: center, middle
+
+#How to contribute to a project?
+- Start with the bug tracker: what are the "easy issues"
+- Present yourself on the communication channel, ask for suggestions to "start to play with the code"
+- Have a motivation: "In the end, I want to bring to this project this and that!"
+- Identify controversials issues and widely discutted issues in the bug trackers
+
+---
+class: center, middle
+
+#Bug triaging
+- Find bugs that have been unanswered by developers
+- Try to reproduce them. Put yourself in the shoes of the developer.
+- Add any information that could help the developer.
+- If you can't reproduce, ask the intial reporter for more information (usually, there's a template)
+- Use tags and/or ping appropriately. Mark duplicates.
+
+---
+class: center, middle
+
+#Documentation
+- Look at the current documantation. Is there's none, ask the prefered way to start one.
+- Put yourself in the shoes of a new user. Write down what is not clear in the documentation.
+- Take screenshots using the development version if the interface is frozen.
+
+---
+class: center, middle
+
+#Take part in the life of the project
+- Maintain the website
+- Organise/participate in AFK events
+- Help with merchandising
+- Write blog posts, share on social medias
+- Give conferences, make presentations in local events
+- Become a local point of contact
 
 
 ---

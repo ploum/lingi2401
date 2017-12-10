@@ -1,5 +1,9 @@
 # Exam requirements
 
+##Date & Place
+
+January 25th, BARB20
+
 ## Schedule
 
 The schedule is uploaded on the GitHub project of the course (exam_2017.csv). Students are allowed to switch their schedule by proposing a merge request of a modification of the file. In the merge request comment, the requester should ping the other student affected by the change. It is the responsibility of the requester to ensure that the other student agreed with the switch.

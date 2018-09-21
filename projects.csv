@@ -2,4 +2,4 @@ Student, project name, project url, projected contribution (optional)
 Jacques Yakoub, node.js , https://github.com/nodejs/node , feature request : add a utility function inside internal module (path) + documentation/tests
 Adrien Hallet, Atom, http://atom.io/, Teletype (official plugin) UX improvement
 Robin Hormaux, Microsoft VS Code, https://github.com/Microsoft/vscode, To be determined
-Simon Gustin, Clippy (Rust linter), https://github.com/sigustin/lingi2401.git, Various bug fixes
+Simon Gustin, Clippy (Rust linter), https://github.com/rust-lang-nursery/rust-clippy, Various bug fixes

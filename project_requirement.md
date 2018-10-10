@@ -41,7 +41,9 @@ But transparency is crucial. Each part of the report that has been writing in co
 
 ## Deadline
 
-The only hard deadline is the exam. And the fact that the teacher should read it before your exam. So take your responsibility. The recommendation is to send your report at least one week before your exam.
+The only hard deadline is the exam. And the fact that the teacher should read it before your exam. So take your responsibility.
+
+This year, I would like to experiment with everybody presenting her/his project. So the deadline is 2 weeks before the end of the semester (the last 2 weeks will be about your project).
 
 
 ## Conclusion

@@ -9,7 +9,7 @@ Besides this contribution, students are expected to send a personal report that 
 
 The contribution does not have to be technical but should illustrate that the student dedicated some time to enter the open source project. This project should be seen as an entry point for LINGI2402 where an important technical contribution will be expected.
 
-The Open Source project should be an existing project, external from the university, with a strong user base, multiple contributors and a documented history.
+The Open Source project should be an existing project, external from the university, with a strong user base, multiple contributors and a documented history. Here is a link with some projects that have a history and reputation for being welcoming to new open source contributors: https://github.com/showcases/great-for-new-contributors.
 
 The student should submit the project of her/his choice by submitting a commit to https://github.com/ploum/lingi2401/projects.csv.
 

@@ -1,4 +1,4 @@
-Student, project name, project url, projected contribution (optional)
+﻿Student, project name, project url, projected contribution (optional)
 Jacques Yakoub, node.js , https://github.com/nodejs/node , feature request : add a utility function inside internal module (path) + documentation/tests
 Adrien Hallet, Atom, http://atom.io/, Teletype (official plugin) UX improvement
 Robin Hormaux, Microsoft VS Code, https://github.com/Microsoft/vscode, To be determined
@@ -19,3 +19,10 @@ Antoine Vanderschueren, Inkscape, https://gitlab.com/inkscape/inkscape, Writing 
 Pablo Gonzalez Alvarez, Firefox Focus/Klar, https://github.com/mozilla-mobile/focus-android, To be determined
 Antoine Gennart, Slic3r, https://github.com/slic3r/Slic3r, adding a new feature that was requested by a user
 Marie-Marie van der Beek,VOC,https://github.com/pybee/voc,Completing implementation of operations on standard types
+mohammed al lami, PrestaShop, https://github.com/PrestaShop/PrestaShop, translations the gui and the documentations
+Valentin Zone, Remixed Pixel Dungeon, https://github.com/NYRDS/pixel-dungeon-remix, to be determined (various ideas)
+Romain Pattyn, PyTorch-NLP, https://github.com/PetrochukM/PyTorch-NLP, add GLUE dataset
+Naitali Brandon, Opsdroid, https://github.com/opsdroid/opsdroid, To be determined
+Romain Hubert, Gimp, https://www.gimp.org/develop/, To be determined
+Sébastien Strebelle, BeeWare's Batavia, https://github.com/pybee/batavia, add implementation of for loops over sequence objects
+Alessandra Rossaro, teammates, https://github.com/TEAMMATES/teammates.git, to be determined

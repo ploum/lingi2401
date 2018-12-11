@@ -37,7 +37,7 @@ The report should be self-explainable and standalone. But there are no mandatory
 
 Collaboration is encouraged between student. Reuse of existing documents is also encouraged. Both are seen as a smart use of your time. 
 
-But transparency is crucial. Each part of the report that has been writing in collaboration should be clearly indicated. The source of every imported material should be mentioned, potentially with the license.
+But transparency is crucial. Each part of the report that has been written in collaboration should be clearly indicated. The source of every imported material should be mentioned, potentially with the license.
 
 ## Deadline
 

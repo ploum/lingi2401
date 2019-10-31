@@ -9,6 +9,7 @@ Please contribute your notes to this course, as comments for the slides or even 
 
 ## Calendar
 - November 5th : Anthony Lesuisse, ODOO
+- November 26th : Damien Van Achter, Open Journalism
 
 
 ## Questions

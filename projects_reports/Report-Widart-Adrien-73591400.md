@@ -1,6 +1,6 @@
 # Open Source Contribution Project
 *Author :* Adrien Widart  
-*Date :* November 2019  
+*Date :* December 2019  
 *NOMA :* 73591400
 
 ## Research and Selection of the Project

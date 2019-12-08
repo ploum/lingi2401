@@ -1,0 +1,14 @@
+# Open Source Contribution Project
+*Author :* Adrien Widart  
+*Date :* December 2019  
+*NOMA :* 73591400
+
+## Research and Selection of the Project
+First I was looking for open-source project I'm used to using ([MongoDB](https://github.com/mongodb/mongo), [NodeJS](https://github.com/nodejs/node), [vim](https://github.com/vim/vim), etc.) but I never found a project with an "easy" issue (I mean an issue with a label such as "*good first issue*"). It was an important criterion for me since, as the label says, I never contribute to an open-source project. I even asked on a repository for any easy issue, but I never got a response. I then found some useful lists of recommended repositories for a first contribution : [firstcontributions.github.io](https://firstcontributions.github.io/#project-list), [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners#java), [first-contributions](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.fr.md), etc.  
+Thanks to these lists, I finally found the project I contributed to : **[Algorithmic-Pseudocode](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode)**. I directly understood the objective of the project and the requests for contributions : to write some pseudocode in LaTex based on written and tested codes.
+
+## Contributions
+I found an open issue written by the author's repository : [Pseudocode for Bipartite Graph Check](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode/issues/66). The [code](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode/blob/UVa/UVa%20Online%20Judge/Bipartite%20Graph/Bicoloring%20(10004)/BFS%20Coloring.cpp) was already written in C and allows a user to test if a graph is bipartite using a BFS approach. Reminder: a graph is bipartite if it is possible to distribute the vertices into two sets such as a set does not contain two vertices connected by an edge (see [here](https://en.wikipedia.org/wiki/Bipartite_graph) for details).  
+After reading the README to know the project requirements and different pseudocodes of the project to see the format used, I wrote a first version that I sent to the project thanks to a [pull request](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode/pull/76). The author made a few comments to me and asked me for changes. I thus updated my file but actually, the author already updated a new file with all remarks applied (I just didn't understand).
+So finally, I took his file to update mine and pushed the final version. He accepted and closed my pull request.   
+From now on, anyone who wants the pseudocode to know if a graph is bipartite can find it in this [folder](https://github.com/Just-A-Visitor/Algorithmic-Pseudocode/tree/9102ad0e74c66957d98b966fc4cde6bf4c7a9aaa/Pseudocode/Graphs/Bipartite%20Graphs/BFS).

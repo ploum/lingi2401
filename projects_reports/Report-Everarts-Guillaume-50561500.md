@@ -21,3 +21,5 @@ For a long time I have been quite lost in this project, I couldn't find any cont
 It took me some times to come with my own idea.  It emerged after my 4th installation of the project from sources (I had to change multiple times of laptop this semester).  The installation is quite long, and you can easily miss one step, having a final result that doesn't work as expected.  And it can take some times to identify the step missed.  I then made a first move toward an even more automatic installation (on Linux at least).  The Issue I posted with this idea can be found here : https://github.com/atom/atom/issues/20204 .  
 
 *03-12-2019* : It is currently waiting for a feedback from the community.  I already made an [implementation](https://github.com/geverartsdev/atom/commit/106eefe5105dc8650f6e7f44cb29f06fd7f0dc41), but I need to wait for approval of the need of this new feature before posting my Pull Request.
+
+*09-12-2019* : Still no news from the community, the only activity that occurred under my issue was a mention that someone has made of my issue in another older one, but I can't even understand why.

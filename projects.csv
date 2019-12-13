@@ -16,7 +16,7 @@ Mawait Maxime, Scapy, https://github.com/secdev/scapy.git, to be determined
 Alexandre Halbardier, youtube-dl, https://github.com/ytdl-org/youtube-dl, to be determined
 Guillaume Everarts de Velp, Atom, https://github.com/atom/atom, to be determined
 Arnaud Spits, Osu!, https://github.com/ppy/osu, solve issue: https://github.com/ppy/osu/issues/6060
-Arthur van Stratum, msmtp, https://marlam.de/msmtp/, add google's flavor of xoauth/oautbearer authentication
+Arthur van Stratum, spksrc & imapfilter, https://github.com/lefcha/imapfilter & https://github.com/SynoCommunity/spksrc/, cross-compile imapfilter for DSM, through the spksrc toolchain.
 François Duchêne, CyberChef, https://github.com/gchq/CyberChef, to be determined
 Martin Vandenbussche, Java-Design-Patterns, https://github.com/iluwatar/java-design-patterns, Solve Issue https://github.com/iluwatar/java-design-patterns/issues/1055 + Try to help migrate to Java11
 Marcio Antonio De Carvalho Borges, NewPipe, https://github.com/TeamNewPipe/NewPipe,Solve https://github.com/TeamNewPipe/NewPipe/issues/2759 or proposition of new functionality

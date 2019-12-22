@@ -23,3 +23,7 @@ It took me some times to come with my own idea.  It emerged after my 4th install
 *03-12-2019* : It is currently waiting for a feedback from the community.  I already made an [implementation](https://github.com/geverartsdev/atom/commit/106eefe5105dc8650f6e7f44cb29f06fd7f0dc41), but I need to wait for approval of the need of this new feature before posting my Pull Request.
 
 *09-12-2019* : Still no news from the community, the only activity that occurred under my issue was a mention that someone has made of my issue in another older one, but I can't even understand why.
+
+*17-12-2019* : Still no news from the community, and my issue is buried under newer ones.  I sent a message calling for review on Slack to try to bring some attention to it.
+
+*22-12-2019* : The message on Slack paid off, quite fast actually.  The feedback I received was not really supportive regarding my amelioration. But the people I have been speaking with seemed more enthusiastic for me to make a documentation upgrade about the same matter (making the installation easier).  So did I, my new pull request (on the [Atom flight manual repository](https://github.com/atom/flight-manual.atom.io) this time) is currently pending : [#583](https://github.com/atom/flight-manual.atom.io/pull/583).

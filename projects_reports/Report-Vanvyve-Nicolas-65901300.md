@@ -47,7 +47,9 @@ So my contribution was as follows:
 
 * Once that was done I made a first pull request which was refused by default because I had not used the code reformatting tool properly. After modification, another maintainer asked me to write tests for the function I had written, which was asked for in the contribution instructions and which I had misread. So I did that and resubmitted a pull request.
 
-* The [pull request](https://github.com/spiral-project/ihatemoney/pull/518) is pending approval...
+* My tests were not complete, I checked that for each imported bill was exactly the same as the one in the json, but I did not check the number of imported bills. This was indeed a problem because I realized that my test was not able to import the file. Which was frustrating because during the real tests, everything worked fine. So I slightly modified my code to make a test that worked. I also modified my code to stop creating temporary files.
+
+* Finally my [pull request](https://github.com/spiral-project/ihatemoney/pull/518) was approved by one of the maintainer (the one who was the most demanding)
 
 ## What I've learned:
 

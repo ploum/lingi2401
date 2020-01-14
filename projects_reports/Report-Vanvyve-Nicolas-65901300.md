@@ -6,6 +6,9 @@
 > **Author**: Nicolas Vanvyve<br>
 > **NOMA**: 6590-1300
 
+Issue : [#417 Add a way to import previously exported json data](https://github.com/spiral-project/ihatemoney/issues/417)  
+Pull request : [#518 Import previously exported json data](https://github.com/spiral-project/ihatemoney/pull/518)
+
 ## Project
 
 *ihatemoney* is a website that allows you to make the account between friends, a bit like Tricount.
@@ -45,11 +48,13 @@ So my contribution was as follows:
 
 * It worked perfectly for the users but it was impossible to do the same for the invoices. So I exposed my problem, and another contributor suggested I make a kind of fake form to make it look like someone was typing them in by hand.
 
-* Once that was done I made a first pull request which was refused by default because I had not used the code reformatting tool properly. After modification, another maintainer asked me to write tests for the function I had written, which was asked for in the contribution instructions and which I had misread. So I did that and resubmitted a pull request.
+* Once that was done I made a first [pull request](https://github.com/spiral-project/ihatemoney/pull/518) which was refused by default because I had not used the code reformatting tool properly. After modification, another maintainer asked me to write tests for the function I had written, which was asked for in the contribution instructions and which I had misread. So I did that and resubmitted a pull request.
 
 * My tests were not complete, I checked that for each imported bill was exactly the same as the one in the json, but I did not check the number of imported bills. This was indeed a problem because I realized that my test was not able to import the file. Which was frustrating because during the real tests, everything worked fine. So I slightly modified my code to make a test that worked. I also modified my code to stop creating temporary files.
 
-* Finally my [pull request](https://github.com/spiral-project/ihatemoney/pull/518) was approved by one of the maintainer (the one who was the most demanding)
+* Two maintainers looked at my pull request, the first one approved my changes after the modifications explained above, the second one asked me to change one or two more things in the file upload in order not to consume memory for nothing. At this point I thought of a check of the json content, so that the user can't import anything and cause a crash. I also implemented the corresponding test.
+
+* After that my pull request has been merged
 
 ## What I've learned:
 

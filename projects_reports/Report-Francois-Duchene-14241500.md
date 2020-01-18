@@ -1,7 +1,9 @@
 # Open Source Contribution report - LINGI2401
 
 Author : François Duchêne
+
 Date : January 2020
+
 NOMA : 14241500
 
 ## Project Presentation

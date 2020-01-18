@@ -11,11 +11,11 @@ Among the candidates, I picked VLC. I took this software because it is a softwar
 
 ## Functioning of the project
 
-The software and its community has a wiki (https://wiki.videolan.org/Getting_Started_At_Coding/) where new contributors can learn how the code works, see current projects and bugs (https://trac.videolan.org/vlc/) as well as code conventions so that it keeps a certain homogeneity.
+The software and its community has a [wiki](https://wiki.videolan.org/Getting_Started_At_Coding/) where new contributors can learn how the code works, see current projects and [bugs](https://trac.videolan.org/vlc/) as well as code conventions so that it keeps a certain homogeneity.
 
 In addition, it is possible to subscribe to a mailing list to keep up to date with new developments in the project and possible new contributions.
 
-They have also a forum and an IRC channel to be able to ask questions and communicate with each other. (https://forum.videolan.org/)
+They have also a [forum](https://forum.videolan.org/) and an IRC channel to be able to ask questions and communicate with each other. 
 
 
 ## Contributions
@@ -26,5 +26,5 @@ So I modified two video filters (adjust and rotate) to better respect the given 
 
 As a complement to this work, I noticed that the documentation inside the project was not up to date (contrary to the one on the wiki). I therefore undertook to update all the documentation concerning the strings in the application. The goal of this documentation is to ensure that all configuration and interface strings will be consistent, well-written and well-translated, providing a better user experience.
 
-Since the VLC community ignore all pull requests on Github (https://wiki.videolan.org/Sending_Patches_VLC/), i didn't make one.
+Since the VLC community [ignore](https://wiki.videolan.org/Sending_Patches_VLC/) all pull requests on Github , I didn't make one.
 So you can see my latest commit here : https://github.com/ThibautPi/vlc/commit/1305fb76f83a9146b9942a33b29f17d3693a0bce

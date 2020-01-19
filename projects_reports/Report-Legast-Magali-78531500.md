@@ -3,6 +3,7 @@
 Author: Magali Legast
 Noma: 78531500
 Date: 15 January 2020
+Date of update: 19 janvier 2020 (Addition of update section, no other change)
 
 
 #Introduction
@@ -52,6 +53,18 @@ Date: 15 January 2020
     What I have provided to the project is a functional model for the carbon footprint of a one night stay in a hotel, as well as an easy way to store country related information and ideas on the possible ways to further improve the model I created. I think it is a robust code that will be useful now and possibly in future development. I am satisfied with the work I have accomplished, both on the development (analyses of data) and implementation of the model.
 
     On the other hand, this project has brought me confidence on approaching an Open Source community and discovering new projects in order to contribute to them, including in the use of the Git tools to do so. It also gave me a new perspective on the way other and wider spread communities can work and on what it is like to be an outsider looking to help in a project with no prior information about it. Both aspects will help me in my future Open Source contributions and in making the current and future projects I participate in more welcoming of new contributors.
+
+
+#Update after finalization of contribution
+    
+    After this report was submitted, my pull request received more reviews, I made some changes to the code and the pull request was merged into the project.
+    
+    The second worth-mentioning review I received requested changes such as deleting the key with the name of the countries and removing the countries for which no value was known. This corresponds to erasing some of my work, but also to making the document relevant only to this precise hotel model with the current values, while I had aimed at a general purpose file that could be used for several models and that could evolve as neatly as possible with minimal work. So I explained the different reasons and advantages I saw in the way I had implemented the model, which convinced the reviewer that a general file for country related information with all country codes already present was useful. However, I deleted all the name variables of the countries since the use they could have was too low compared to the size they were taking. After some other minor changes, my contribution was merged.
+    
+    My contribution now represents 11 commits and 459 lines of code. It is very different than the first version and doesn't correspond to the original idea of the author of the issue because the different interactions I had allowed me to produce something better than that. Thanks to the utilization of standardize codes and the deletion of the non-fundamental name key, the model is more convenient to use and lighter than what I would have done on my own. Thanks to my concern for facilitating future improvements and diverse uses, it serves more purposes and will be easier to modify than what the main reviewer of my pull request would have probably done. I think this is a good example of the way Open Source helps improve the quality of software by allowing different people to exchange their ideas and work together towards a better solution.
+
+
+- Note: It is possible that I keep on contributing to this project by improving the model before the end of the exam session, but I will not consider future contributions to be part of the requirement for this project and thus I will not make any new update of this report.
 
 
 #Useful links

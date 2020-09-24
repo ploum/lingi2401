@@ -21,3 +21,15 @@ Because it was an easy issue that I understand quite well, I created an [issue](
 https://github.com/numba/numba/issues/6276
 
 https://github.com/numba/numba/pull/6277/files
+
+```diff
+            raise ValueError((
+                "Dimensions for both inputs is 2.\n"
+                "Please replace your numpy.cross(a, b) call with "
+-               "numba.numpy_extensions.cross2d(a, b)."
++               "a call to `cross2d(a, b)` from `numba.np.extensions`."
+            ))
+    return impl
+
+
+```

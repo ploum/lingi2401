@@ -17,3 +17,7 @@ Later, I was coding in Python for an another course and I started using the [num
 ## Starting to contribute to the project
 
 Because it was an easy issue that I understand quite well, I created an [issue](https://github.com/numba/numba/issues/6276) that I documented as much as possible, while also following their guidelines. Quickly, a contributor replied to me and told me that I could try to fix this issue. After some comments we exchanged, we discover that it was actually 2 separated issues: he assigned me to the first one and I'm still investigating on the second one.
+
+https://github.com/numba/numba/issues/6276
+
+https://github.com/numba/numba/pull/6277/files

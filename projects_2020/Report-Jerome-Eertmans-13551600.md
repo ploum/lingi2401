@@ -11,7 +11,7 @@
 
 As I am a frequent user of numerical libraries in Python, I would like to contribute to one of them. The one which can still grow a lot, in my opinion, is [Pandas](https://github.com/pandas-dev/pandas) and it is why I first wanted to contribute to this great package. After digging in the [Pandas' contribution guide](https://pandas.pydata.org/docs/dev/development/contributing.html#where-to-start) and the various issues, I started becoming less attracted by contributing to issues that I didn't even care about: as Pandas is very popular, most interesting issues to me are closed very quickly and what is left is to build tests. I think that tests are important but it was not how I wanted to contribute to an open source project, at least for now. The Pandas unit tests are a painful way to start contributing as they need very long compilation time, a lot of side packages and trying to build everything came with a lot more issues than it started with.
 
-### Changing to **Numba**
+### Changing to **Numba** ![](https://banner2.cleanpng.com/20180420/ife/kisspng-numba-cuda-python-compiler-graphics-processing-uni-floating-geometry-5ada332c031b10.7516276215242493880127.jpg)
 
 Later, I was coding in Python for an another course and I started using the [Numba](https://numba.pydata.org/) library for performances purposes, which is something I am very interested in. After a few minutes, I encountered a reference bug within the package. Before raising the alarm to the Numba community, I read their documentation, went through multiple issues and even came to find a fix to my issue.
 

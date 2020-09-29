@@ -90,7 +90,7 @@ with unit tests.
 
 ### Second contribution to Numba
 
-Because I still wanted to contribute to Numba, I searched through the proposed implementations listed in this [issue](https://github.com/numba/numba/issues/4074) and decided to implement the [`numpy.allclose`](https://numpy.org/doc/stable/reference/generated/numpy.allclose.html) function. I tried to be as complete as possible so I took other successful PR as example.
+Because I still wanted to contribute to Numba, I searched through the proposed implementations listed in this [issue](https://github.com/numba/numba/issues/4074) and decided to implement the [`numpy.allclose`](https://numpy.org/doc/stable/reference/generated/numpy.allclose.html) function. I tried to be as complete as possible so I took other successful [PR](https://github.com/numba/numba/pull/6277) as example.
 Once I was quite confident about my implementation, I started a [PR](https://github.com/numba/numba/pull/6286).
 
 My PR is for the moment in the *ready for review* state.

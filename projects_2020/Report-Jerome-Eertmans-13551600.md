@@ -13,15 +13,34 @@ As I am a frequent user of numerical libraries in Python, I would like to contri
 
 ### Changing to **Numba**
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-   <div id="cd52e831-399a-403d-9bb2-0c56214b1d38" style="height: 100%; width: 100%;" class="plotly-graph-div"></div>
-   <script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("cd52e831-399a-403d-9bb2-0c56214b1d38", [{"type": "pie", "values": [4500, 2500, 1053, 500], "labels": ["Oxygen", "Hydrogen", "Carbon_Dioxide", "Nitrogen"]}], {}, {"linkText": "Export to plot.ly", "showLink": true})</script>
+In short, Numba increases Python's performances by compiling function using an optimized compiler, while keeping the code pretty simple
 
-Later, I was coding in Python for an another course and I started using the [Numba](https://numba.pydata.org/) library for performances purposes, which is something I am very interested in. After a few minutes, I encountered a reference bug within the package. Before raising the alarm to the Numba community, I read their documentation, went through multiple issues and even came to find a fix to my issue.
+```python
+def some_function(x):  # Any function using pure Python or even Numpy functions
+    """
+    Some code
+    """
+
+import numba
+
+@numba.njit
+def some_function(x):  # Same function but Numba will optimize it
+    """
+    Some code
+    """
+```
+
+<div align="center">
+<img src="https://i1.wp.com/murillogroupmsu.com/wp-content/uploads/2018/01/plot-3.png?resize=648%2C648&ssl=1"></img>
+</center></div>
+
+<br/>
+
+Later, I was coding in Python for an another course and I started using the [Numba](https://numba.pydata.org/) library for performances purposes, which is something I am very interested in. After a few minutes, I encountered a reference bug within the package. Before raising the alarm to the Numba community, I read their documentation, went through multiple issues and even came to find a fix to this issue.
 
 ## Starting to contribute to the project
 
-Because it was an easy issue that I understand quite well, I created an [issue](https://github.com/numba/numba/issues/6276) that I documented as much as possible, while also following their guidelines. Quickly, a contributor replied to me and told me that I could try to fix this issue. After some comments we exchanged, we discover that it was actually 2 separated issues: he assigned me to the first one and I'm still investigating on the second one.
+Because it was a simple error that I understood quite well, I created an [issue](https://github.com/numba/numba/issues/6276) that I documented as much as possible, while also following their guidelines. Quickly, a contributor replied to me and told me that I could try to fix this issue. After some comments we exchanged, we discovered that it was actually 2 separated issues: he assigned me to the first one and I kept investigating on the second one.
 
 ### First contribution to Numba
 
@@ -39,11 +58,11 @@ diff --git numba/numba/np/arraymath.py jeertmans/numba/np/arraymath.py
     return impl
 ```
 
-Even though fixing the error was quite an easy task, I learn many interesting things on how to contribute and here is a quick summary:
+Even though fixing the error was quite an easy task, I learned many interesting things on how to contribute and here is a quick summary:
 
 #### 1. Reproducible error
 
-Numba's community asks issues to fullfill two criterions:
+Numba's community asks issues to fulfill two criteria:
 - [x] I have tried using the latest released version of Numba (most recent is
  visible in the change log (https://github.com/numba/numba/blob/master/CHANGE_LOG).
 - [x] I have included below a minimal working reproducer (if you are unsure how
@@ -53,11 +72,11 @@ Before posting my issue, I made sure to check them and that there was no similar
 
 #### 2. Searching for a fix
 
-I think that, when you post an issue, it is important to at least search for a fix. It will help other people understand what really goes wrong and how to quickyl adress your problem. I did search a fix and even found one.
+I think that, when you post an issue, it is important to at least search for a fix. It will help other people understand what really goes wrong and how to quickly address your problem. I did search a fix and even found one.
 
 So, I also proposed to be the one in charge of fixing the issue.
 
-#### 3. Discuting the field of the fix
+#### 3. Deciding the field of the fix
 
 It is important to determine what should be fixed and what should not. Even if an error can be very wide, some of the **bad** behavior can be intentional. With the help of the Numba's contributors, we defined the field of what should be done.
 

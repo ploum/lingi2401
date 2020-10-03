@@ -102,7 +102,9 @@ with unit tests.
 Because I still wanted to contribute to Numba, I searched through the proposed implementations listed in this [issue](https://github.com/numba/numba/issues/4074) and decided to implement the [`numpy.allclose`](https://numpy.org/doc/stable/reference/generated/numpy.allclose.html) function. I tried to be as complete as possible so I took other successful [PR](https://github.com/numba/numba/pull/6277) as example.
 Once I was quite confident about my implementation, I started a [PR](https://github.com/numba/numba/pull/6286).
 
-My PR is for the moment in the *Waiting on reviewer* state and I am actively working on it!
+Quickly, a reviewer reached me and we started discussing about my implementation. I made several changes to my initial commits because, even if my code was optimized, it was not a perfect copy of the behavior of `numpy.allclose` function. They prefer to have a reliable code, even it is comes with a performance cost.
+
+My PR is for the moment in the *Waiting on reviewer* state and I am actively working on it.
 
 Because Numba's main purpose is to accelerate execution time, it is interesting to see how my implementation compares with the original function (almost 6 times faster !).
  ```python

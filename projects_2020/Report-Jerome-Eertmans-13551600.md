@@ -7,13 +7,20 @@
 
 ## Research and Selection of the Project
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 ### Starting with **Pandas**
+[![PyPI download month](https://img.shields.io/pypi/dm/pandas.svg)](https://pypi.python.org/pypi/pandas/) [![PyPI license](https://img.shields.io/pypi/l/pandas.svg)](https://pypi.python.org/pypi/pandas/) [![GitHub contributors](https://img.shields.io/github/contributors/pandas-dev/pandas.svg)](https://GitHub.com/pandas-dev/pandas/graphs/contributors/)
 
 As I am a frequent user of numerical libraries in Python, I would like to contribute to one of them. The one which can still grow a lot, in my opinion, is [Pandas](https://github.com/pandas-dev/pandas) and it is why I first wanted to contribute to this great package. After digging in the [Pandas' contribution guide](https://pandas.pydata.org/docs/dev/development/contributing.html#where-to-start) and the various issues, I started becoming less attracted by contributing to issues that I didn't even care about: as Pandas is very popular, most interesting issues to me are closed very quickly and what is left is to build tests. I think that tests are important but it was not how I wanted to contribute to an open source project, at least for now. The Pandas unit tests are a painful way to start contributing as they need very long compilation time, a lot of side packages and trying to build everything came with a lot more issues than it started with.
 
-### Changing to **Numba**
+### Changing to **Numba** 
+[![PyPI download month](https://img.shields.io/pypi/dm/numba.svg)](https://pypi.python.org/pypi/numba/) [![PyPI license](https://img.shields.io/pypi/l/numba.svg)](https://pypi.python.org/pypi/numba/) [![GitHub contributors](https://img.shields.io/github/contributors/numba/numba.svg)](https://GitHub.com/numba/numba/graphs/contributors/)
 
-In short, Numba increases Python's performances by compiling function using an optimized compiler, while keeping the code pretty simple
+
+Later, I was coding in Python for an another course and I started using the [Numba](https://numba.pydata.org/) library for performances purposes, which is something I am very interested in. After a few minutes, I encountered a reference bug within the package. Before raising the alarm to the Numba community, I read their documentation, went through multiple issues and even came to find a fix to this issue.
+
+In short, Numba increases Python's performances by compiling function using an optimized compiler, while keeping the code pretty simple:
 
 ```python
 def some_function(x):  # Any function using pure Python or even Numpy functions
@@ -30,13 +37,13 @@ def some_function(x):  # Same function but Numba will optimize it
     """
 ```
 
-<div align="center">
-<img src="https://i1.wp.com/murillogroupmsu.com/wp-content/uploads/2018/01/plot-3.png?resize=648%2C648&ssl=1"></img>
-</center></div>
-
-<br/>
-
-Later, I was coding in Python for an another course and I started using the [Numba](https://numba.pydata.org/) library for performances purposes, which is something I am very interested in. After a few minutes, I encountered a reference bug within the package. Before raising the alarm to the Numba community, I read their documentation, went through multiple issues and even came to find a fix to this issue.
+<p align="center">
+    <img src="https://i1.wp.com/murillogroupmsu.com/wp-content/uploads/2018/01/plot-3.png?resize=648%2C648&ssl=1">
+    </img>
+</p>
+<p align="center">
+    Source: https://murillogroupmsu.com/numba-versus-c/
+</p>
 
 ## Starting to contribute to the project
 
@@ -44,7 +51,7 @@ Because it was a simple error that I understood quite well, I created an [issue]
 
 ### First contribution to Numba
 
-It turned out that the latter was not an issue related to Numba but more likely to Python's behavior. Anyway, my fix was pretty easy and my [PR](https://github.com/numba/numba/pull/6277) got accepted within the first 24 hours of existence of the [issue](https://github.com/numba/numba/issues/6276). My PR has been now merged and will be released with version [0.52](https://github.com/numba/numba/milestone/40).
+It turned out that the latter was not an issue related to Numba but more likely to Python's behavior. Anyway, my fix was pretty easy and my [PR](https://github.com/numba/numba/pull/6277) got accepted within the first 24 hours of existence of the [issue](https://github.com/numba/numba/issues/6276). My PR has been now merged and will be released with version [0.52](https://github.com/numba/numba/milestone/40): ![](https://img.shields.io/github/commit-status/numba/numba/master/38ecdf9bfb25017e4e234cc7f7535ebd2c3246d3)
 
 ```diff
 diff --git numba/numba/np/arraymath.py jeertmans/numba/np/arraymath.py
@@ -88,12 +95,14 @@ So, even if my fix started with a one line change in the code, I ended up updati
 other parts of the code as well as checking that everything was working as expected
 with unit tests.
 
+<img src="https://dev.azure.com/numba/numba/_apis/build/status/numba.numba?buildId=6745"></img>
+
 ### Second contribution to Numba
 
 Because I still wanted to contribute to Numba, I searched through the proposed implementations listed in this [issue](https://github.com/numba/numba/issues/4074) and decided to implement the [`numpy.allclose`](https://numpy.org/doc/stable/reference/generated/numpy.allclose.html) function. I tried to be as complete as possible so I took other successful [PR](https://github.com/numba/numba/pull/6277) as example.
 Once I was quite confident about my implementation, I started a [PR](https://github.com/numba/numba/pull/6286).
 
-My PR is for the moment in the *ready for review* state.
+My PR is for the moment in the *Waiting on reviewer* state and I am actively working on it!
 
 Because Numba's main purpose is to accelerate execution time, it is interesting to see how my implementation compares with the original function (almost 6 times faster !).
  ```python

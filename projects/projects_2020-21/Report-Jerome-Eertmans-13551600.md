@@ -126,3 +126,4 @@ allclose(a, a)
 %timeit np.allclose(a, a)  # Reference function
 >>> 59.4 µs ± 221 ns per loop (mean ± std. dev. of 7 runs, 10000 loops each)
 ```
+

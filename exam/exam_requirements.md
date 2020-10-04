@@ -1,6 +1,6 @@
 # Exam requirements
 
-##Date & Place
+## Date & Place
 
 January 25th, BARB20
 

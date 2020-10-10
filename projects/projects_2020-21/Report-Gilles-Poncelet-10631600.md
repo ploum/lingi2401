@@ -53,4 +53,4 @@ The maintainer of the project was happy of the work I did, but asked me to imple
 
 ## Conclusion
 You can now create an account on [ADE-Scheduler](https://ade-scheduler.info.ucl.ac.be/register), try to login before confirming your email only to be properly redirected to the `/confirm` endpoint ! \
-Also: unit test are very important and not to be neglected...
+Also: unit test are very important and not to be neglected... and thanks to this whole contribution experience, we actually integrated Travis CI & started writing tests for ADE-Scheduler as well to enable other people to contribute to the project more easily.

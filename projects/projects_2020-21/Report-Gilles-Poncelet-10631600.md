@@ -27,14 +27,15 @@ In our application, when you register a new account, you need to confirm your em
 
 Being unable to do so without modifying Flask-Security's source code, I created a [new issue](https://github.com/Flask-Middleware/flask-security/issues/391) to see if the folks over there would be interested by such an option. Quickly, they answered and invited me to issue a PR on my own.
 
-#### First round
+#### First review
 
 I quickly put together a code to implement the aforementioned feature and thought "this is so simple it shouldn't require any unit test, right ?". So, I wrote my code, committed it and issued the PR - you can find it [here](https://github.com/Flask-Middleware/flask-security/pull/393).
 
-#### Second round
+#### Second review
 
 Obviously, unit test are important. So I was asked to write one for my new option. Well... that was the complicated part ! Since I had never used `pytest` before, writing the following lines took me way more time than I would be willing to share:
-```
+
+```python
 @pytest.mark.registerable()
 @pytest.mark.settings(requires_confirmation_error_view="/confirm")
 def test_requires_confirmation_error_redirect(app, clients):
@@ -46,6 +47,10 @@ def test_requires_confirmation_error_redirect(app, clients):
     assert b"jyl@lp.com" in response.data
 ```
 
-### Third round
+#### Third review
 
 The maintainer of the project was happy of the work I did, but asked me to implement the same code for other endpoints as to unify the behavior accross every endpoint - which I had not thought of since I did not use these other part of the Flask-Security package in our application. Once I did that, the PR was accepted and merged. Success !
+
+## Conclusion
+You can now create an account on [ADE-Scheduler](https://ade-scheduler.info.ucl.ac.be/register), try to login before confirming your email only to be properly redirected to the `/confirm` endpoint ! \
+Also: unit test are very important and not to be neglected... and thanks to this whole contribution experience, we actually integrated Travis CI & started writing tests for ADE-Scheduler as well to enable other people to contribute to the project more easily.

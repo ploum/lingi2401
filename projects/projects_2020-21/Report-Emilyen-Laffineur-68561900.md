@@ -12,9 +12,13 @@ in order to make this third version available. A lot of programming langages are
 when I have/want to do something. Passionnated by teaching make my first exercice available would be a great first step in this way.
 More information: [here](https://github.com/exercism/v3).
 
+![GitHub contributors](https://img.shields.io/github/contributors/exercism/v3?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/exercism/v3?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/exercism/v3?style=for-the-badge)
+
 ### Fedora
 
-An other solution (less likely) would be to make a contribution to Fedora which is my day to day OS. However, viewing the size of this software
+An other solution (less likely) would be to make a contribution to Fedora which is my day to day OS. However, after viewing the size of this software
 it may be too large for a first contribution.
 More information: [here](https://github.com/topics/fedora-project) and [here](https://github.com/fedora-infra).
 
@@ -34,11 +38,11 @@ Following the readme I choose the language for the one I want to develop somethi
 Once you have selected a language you access the list of exercices that need to be developped at the moment.
 One of the opened Java exercise at that moment is an exercise about case-statement. (You can find it [here](https://github.com/exercism/v3/issues/1963))
 
-Everything that need to be develop is well documented with the things we need to know before starting contribute, the goal of the project, etc.
+Everything that need to be develop is well documented with the things we need to know before starting to contribute, the goal of the exercise, etc.
 
-In order to work on this exercice I just had to write a comment saying that I'm interested in doing that.
+In order to work on this exercise I just had to write a comment saying that I'm interested in doing that.
 
-Some hours later I had an answer from [mirko](https://github.com/mirkoperillo) saying that they assigned me the issue.
+Some hours later I had an answer from [mirkoperillo](https://github.com/mirkoperillo) saying that they assigned me the issue.
 The same exercice already exists for C#. As Java and C# are very close langage I was just ask to "translate" the C# code into Java.
 
 ### 23/09
@@ -76,7 +80,7 @@ The ```src``` folder contains the base file for the "student" and some Junit tes
 
 After that I started by making all the .md files that are required for the explaination, instructions and hints for the exercise.
 I started translating the code in Java and ran into a problem. 
-In C# it exists the "Case-when" statement ([doc](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/when)). 
+In C# it exists the `Case-when` statement ([doc](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/when)). 
 However, nothing like that exists in Java, a workaround is possible using an enumeration but it's kinda dirty. 
 So, I asked on the issue, what was I supposed to do. I was not sure if the workaround was a good thing or not as it's clearly not obvious for someone who start coding.
 
@@ -89,7 +93,8 @@ If and only if all the five tests are passed a reviewer is asked to check the PR
 
 ### 25/09
 
-My PR received a review from [ErikSchierboom](https://github.com/ErikSchierboom) who asked me to do some changes in the docs files or java files.
+My PR received a review from [ErikSchierboom](https://github.com/ErikSchierboom) who asked me to do some changes in the docs files and java files.
+Most of them was coding style issues.
 
 ### 5/10
 
@@ -102,7 +107,7 @@ They are some things that are left to do : add the exercise entry in some file i
 
 ### 7/10
 
-[mirko](https://github.com/mirkoperillo) left some comments in the PR regarding `gradle`, telling me that I should solve some issues that `gradle` is returning.
+[mirkoperillo](https://github.com/mirkoperillo) left some comments in the PR regarding `gradle`, telling me that I should solve some issues that `gradle` is returning.
 
 ### 13/10
 
@@ -110,3 +115,12 @@ I tried to work on the `gradle` issue which is really weird as the issues are wi
 I asked for help in the PR because I have really no clues on how to solve that.
 Also, I made a big mistake at this moment. The original project received some update and my forked one needed to be updated. What was the problem?
 The last time I worked on my forked I directly worked on the `master` branch... (A really bad idea...). When I tried to update from forked repo it was a real mess with the conflicts... it took me almost two hours to solve all those issues.
+
+### 15/10
+
+With the help of [mirkoperillo](https://github.com/mirkoperillo) we found the error. It was a typo in the name of a class.
+By correcting this typo all the `gradle` stuff is now passing! After pushing it to my project and successfully passed the test it was time to be merged...
+
+## Conclusion
+
+This participation has marked my first contribution to an Open Source project. It was a bit scarry at the beginning as the project is huge and getting reworked now (version 3). However the differents contributor I collaborate with, where very helpfull and caring. Thanks to them I could end up the contribution and learned things!

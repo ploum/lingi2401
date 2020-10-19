@@ -11,7 +11,7 @@ The contribution does not have to be technical but should illustrate that the st
 
 The Open Source project should be an existing project, external from the university, with a strong user base, multiple contributors and a documented history. Here is a link with some projects that have a history and reputation for being welcoming to new open source contributors: https://github.com/showcases/great-for-new-contributors.
 
-The student should submit the project of her/his choice by submitting a commit to https://github.com/ploum/lingi2401/projects.csv.
+The student should submit the project of her/his choice by submitting a new file as a commit to https://github.com/ploum/lingi2401/projects/projects_20\*\*-\*\* . This file will serve as a report for the contributions to the open source project.
 
 If the commit is merged by the teacher, the project is accepted.
 
@@ -48,7 +48,7 @@ This year, I would like to experiment with everybody presenting her/his project
 
 ## Conclusion
 
-There is no "standard" report because there is no standard project.   There's no timed deadline nor precise rules because you are adults. There's no good and bad, no black and white. In real life, everything can always be negotiated. 
+There is no "standard" report because there is no standard project. There's no timed deadline nor precise rules because you are adults. There's no good and bad, no black and white. In real life, everything can always be negotiated. 
 
 Use that freedom. Put your guts on the paper, write with your blood, sweat on your keyboard! Question everything, offer more questions than answers.
 

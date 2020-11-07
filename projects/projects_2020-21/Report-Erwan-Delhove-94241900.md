@@ -70,10 +70,20 @@ After a few times, I've already found another one to work on ([issue#8783](https
 After a few code changes, the issue seems to be fixed! After checking the PR step to reproduce, I directly made one ([pull#9046](https://github.com/notepad-plus-plus/notepad-plus-plus/pull/9046)). It seems it has a problem with the building check but I remember that the commit on which  base myself wasn't the last one since it has building trouble. I'm awaiting comments about it and meanwhile I will go look for another issue to correct. After a small discussion with [sasumner](https://github.com/sasumner), I had to make a rebase to take the master fix into account. That will be my first rebase, I hope I won't break anything!
 
 23/10 -> 26/10:
-I got a review on my pull request from ["Don Ho"](https://github.com/donho). It seems I made a mistake in the code I first submit. Since it's an easy fix, I ask him if I should add an enumeration. He didn't answer so I deduct that this change wasn't necessary. I pushed my changes and wait for his feedback. A few hours after my PR was accepted. Even if the change is minor, I feel happy to have made it.
+I got a review on my pull request from ["Don Ho"](https://github.com/donho). It seems I made a mistake in the code I first submit. Since it's an easy fix, I ask him if I should add an enumeration. He didn't answer so I deduct that this change wasn't necessary. I pushed my changes and wait for his feedback. A few hours after my PR was accepted. Even if the change is minor, I feel happy to have made it. Since this was a small issue, I decided to pick another one([issue#7750](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/7750)).
+
+27/10:
+After adding two lines to the code it seems that the error was already resolved so I directly create a PR for it.
+
+03/11:
+Even if my PR was correct and easy, I found strange to see so much time passes between my correction and the merge. Maybe this fix wasn't really important that it was decided to merge it later?
+
 
 ### Issue(s) discovered
 15/10
 I have just launched my notepad++ application and it seems to have a strange error. I try with a fresh version to be sure of its presence and it was the case.
 I tell the maintainer about my discovery and it seems to be an error that has never been there before.
 Here is the [issue#9011](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/9011). I will maybe try to fix when I'm done with the current one.
+
+## Conclusion
+After having contributed to this open source project, my vision about this "universe" change a lot. At the beginning I was afraid to not be really useful or to write code not sufficiently good enough to be accepted. But after a few tries, I managed to do it and I think that I will probably contribute again to the open source world in the near future!

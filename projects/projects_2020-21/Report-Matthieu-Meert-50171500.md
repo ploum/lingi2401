@@ -35,3 +35,28 @@ It is not easy to get into the code of some huge progam that was written by othe
 
 Here is my [PR](https://github.com/OpenShot/openshot-qt/pull/3857). I took care that the correspondance of scrolling down/up resulting in moving right/left was consistent with what I have experienced in other programs. I also took care that the scroll speed is not proportional to time units but to the window, so that it doesn't scroll very fast when zommed in and very slow when zommed out. I am quite satisfied with the results. Even if it is simple, I think it can add a lot to the ease of use of the program. I look forward for the opinions/questions of the community on this!
 
+## Feedback
+
+After a few days, I receive a comment on my PR. Quite a surprise here, I am told that the feature is already implemented! It is still interesting to know that it doesn't work on some machines, and the next step will actually be to fix that bug more than add a new feature. Apparently, different backends have to be used depending on the OS. This also means that I will probably have to implement the feature differently, and in some other part of the code, specific for the backend used with my system.
+
+So I start over on this new way of fixing the bug. It seems more complicated than before and, after a few hours of trying to fix it, I decide to take advice from the community. The maintainer who commented my PR is very active for the moment and seems to be the best person to suggest me some other ways I could try. His answers are really instructive and well explained, and our exchanges are always done with great care and courtesy. After trying some ways of solving the problem, he proposes a workaround. 
+
+The bug is finally fixed and the PR is merged!
+
+## Conclusion
+
+The introduction part was intentionnaly long, to emphasise that there is a barrier of entry to contributing to open-source. I had difficulties making a step into it even though it was mendatory for this project. There are many reasons why someone would want to contribute and then finally be discouraged to do so. The introduction pointed out some of those reasons, and I hope this last part will give insights on how to mitigate them, both for maintainers of a project and for people that haven't contributed yet. 
+
+I have learned many things with this project. I have pointed out some of them:
+
+- When hesitating to contribute, it's a good idea to clone the repo and experiment with the code, it doesn't engage into anything.
+- The community is generally very happy to have newcomers, and very friendly with them.
+- The community is here to help you when you are stuck.
+- Contributing doesn't mean spending days to understand the whole project (you don't have to understant everything to contribute).
+- Contributing is exciting, rewarding, fun and social.
+- Contributing seems far less compliacated when you have already done it once.
+- Open source is everywhere around us.
+- Open source is a whole world, and kind of a state of mind (it's amusing how the OpenShot's team like using open source whenever it's possible)
+
+Finally, it is way funnier to contribute to a project you actually use than just contributing to anything to have the points for this course's project. I'm glad I have finally found such a project and very happy to have made my first contribution!
+

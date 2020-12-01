@@ -22,9 +22,7 @@ As I saw that they are implementing the third major interation of Exercism, I ch
 
 ### 28/10
 
-After my choice to implement new exercises, I had to choose the language in which I will cooperate. I first choose Java since it is the language in which I have the most experience, but all issues were already assigned. I then wanted to help in TypeScript or Scala, but found out that they are not requesting for contribution for these languages yet. I then finally moved to JavaScript and chose a issue that can be found [here](https://github.com/exercism/v3/issues/1883).
-
-The next step was to be assigned to it. I therefore asked to be assigned, and got approved 2 hours later ! Issue can be found [here](https://github.com/exercism/v3/issues/1883)
+After my choice to implement new exercises, I had to choose the language in which I will cooperate. I first choose Java since it is the language in which I have the most experience, but all issues were already assigned. I then wanted to help in TypeScript or Scala, but found out that they are not requesting for contribution in these languages yet. I then finally moved to JavaScript and chose an issue that can be found [here](https://github.com/exercism/v3/issues/1883).
 
 ### 30/10 - 4/11
 
@@ -39,10 +37,15 @@ After redacting the files, I created a [pull request](https://github.com/exercis
 ### 07/11
 
 The pull request has just been reviewed. Since it is textual, I will need 3 reviews. However, the comments are not complex, it was mostly about restructuring sentences, or refactoring some files.
+- The docs needed to be read became obselete at the time I was implementing it. A reviewer then told me what was the new structure all about, and I changed it considering his comments.
+
+## 01/12
+
+Up to this day, two reviewers already reveiwed the pull request. I am still waiting for the last 24 days that the last reviewer comes as well... 
 
 ## Conclusion
 
-After working on this relatively small issue, I started to get really interested in this project. Therefore, as I said earlier in the report, I could not work on Scala since they were still not requesting for contribution. I then think that I will be helping them as soon as they ask for any contribution.
+After working on this (relatively small) issue, I started to get really interested in this project. Therefore, as I said earlier in the report, I could not work on Scala since they were still not requesting for contribution. I then think that I will be helping them as soon as they ask for any contribution.
 
 I might even ask to be a maintainer for Scala, but I am a bit doubtful on my lack of experience in Scala to become one.
 

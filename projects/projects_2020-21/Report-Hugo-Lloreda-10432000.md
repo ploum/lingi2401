@@ -62,11 +62,11 @@ So I started trying to see which components of the code would be affected by thi
 
 At first glance nothing struck me, so I decided to test using android Studio, that's where my computer made me understand that the task was going to be complicated, indeed the emulator took almost all the resources that my computer has, so I end up with a computer that has trouble responding. However, I managed to reproduce the crash, and I thought to myself "now I just have to launch in debug mode to have a lot of information", second big mistake, the application took a long time just to launch, I understood that I will have to do otherwise.
 
-So I rely on the Sout (= System.out.println()) and I notice that there is a comparison of memory addresses instead of comparing the values of the two objects, so I override the 'equals' method of the concerned class and I test my solution, I don't see any problem anymore. However this crash was quite random because sometimes the memory addresses matched, which made debugging more difficult.
+So I relied on the Sout (= System.out.println()) and I noticed that there was a comparison of memory addresses instead of comparing the values of the two objects, so I overrided the 'equals' method of the concerned class and I tested my solution, I didn't see the problem afterwards. However, this crash was quite random because sometimes the memory addresses matched, which made debugging more difficult.
 
 ## My contribution
 
-Once the fix was pushed on my repo and tested many times to make sure the problem was fixed (so much so that Google was starting to wonder what was happening on my network), I look at the guidelines for making a [contribution](https://github.com/TeamNewPipe/NewPipe/blob/dev/.github/CONTRIBUTING.md) in the standards. My contribution answering the different points, I send my Pull Request. 
+Once the fix was pushed on my repo and tested many times to make sure the problem was fixed (so much so that Google was starting to wonder what was happening on my network), I look at the guidelines for making a [contribution](https://github.com/TeamNewPipe/NewPipe/blob/dev/.github/CONTRIBUTING.md) in the standards. My contribution answering the different points so I send my Pull Request. 
 
 :warning: to the eyes, photo can hit the most sensitive eyes ***to bad quality photos***.
 
@@ -74,13 +74,13 @@ Once the fix was pushed on my repo and tested many times to make sure the proble
 
 ## Feedback
 
-I wake up the next day and see that contributors have commented on my Pull Request. They advise me to improve the fix by using a special class of Kotlin (Newpipe using Java but also Kotlin) called [Data Class](https://kotlinlang.org/docs/reference/data-classes.html) (this is not the pattern). This data class implements by default the "equals", "hashcode", ... methods. (so no comparison of memory addresses as opposed to Java's default behavior), which greatly simplifies my solution (which was about ten lines long), which in the end amounts to modifying only one line of the initial code.
+The next day, I saw that contributors had commented on my Pull Request. They advised me to improve the fix by using a special class of Kotlin (Newpipe is using Java but also Kotlin) called [Data Class](https://kotlinlang.org/docs/reference/data-classes.html) (this is not the pattern). This data class implements by default the "equals", "hashcode", ... methods. (so no comparison of memory addresses as opposed to Java's default behavior of the method equals), which greatly simplifies my solution (which was about ten lines long), which in the end amounts to modifying only one line of the initial code.
 
-Before applying the suggestion, I had a doubt as to how to apply it, so I asked which of the solutions I thought he was referring to in his message, and the contributor answered shortly after my comment. So I applied the suggestion and asked for a new review of the RP, now I just have to wait for the Merge or a last comment from a contributor.
+Before applying the suggestion, I had a doubt about how to apply it, so I asked which of the solutions I thought he was referring to in his message, and the contributor answered shortly after my comment. So I applied the suggestion and asked for a new review of the RP, now I just have to wait for the Merge or a last comment from a contributor.
 
 ## Conclusion
 
-To finish with this first contribution, it makes me want to do more and fix other problems (at least when I have the time to do so) but I'm looking forward to taking part in this project that is close to my heart and making a small place for myself in this community.
+After finishing my first contribution, it makes me want to do more and fix other problems (at least when I have the time to do so) but I'm looking forward to taking part in this project that is important to me and making a small place for myself in this community.
 
 What I particularly appreciated with this contribution is that it is also an exchange, knowing practically nothing about Kotlin, I did not know that it was possible to do the same thing with just one more word.
 

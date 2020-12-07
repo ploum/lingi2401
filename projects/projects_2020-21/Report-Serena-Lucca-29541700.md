@@ -1,11 +1,11 @@
-#Open source contribution project
+# Open source contribution project
 
-**Author:** Serena Lucca
-**Noma:** 29541700
-**Open source project:** [Exercism](https://github.com/exercism/v3)
-**Academic year:** 2020-2021
+**Author:** Serena Lucca \
+**Noma:** 29541700 \
+**Open source project:** [Exercism](https://github.com/exercism/v3) \
+**Academic year:** 2020-2021 \
 
-#Selection of the project
+# Selection of the project
 
 - At first, I wanted to contribute to one of python's big libraries. The problem here is that it is very hard to find an issue that is interesting and good for beginners. 
 - I kept looking for a project in python but most of them seemed uninteresting to me.
@@ -13,7 +13,7 @@
 - I looked up the libraries in javascript and typescript that I was using for another project but as a mather of fact I did not have enough skills to contribute to one of those.
 - After 10 weeks of research I decided to check out the Exercism repo because I heard that each year, some students of this course contributed to this project. And there it was, the perfect [issue](https://github.com/exercism/v3/issues/2880). 
 
-#Contribution to the project
+# Contribution to the project
 
 *06-12-20*
 Here we are, I found a good issue so I posted a comment to ask if I could implement it. No reply from anybody. I got bored and impatient so I decided to start working on it. All I had to do was to create and implement a few files:

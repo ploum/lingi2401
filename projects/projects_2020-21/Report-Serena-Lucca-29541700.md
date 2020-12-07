@@ -16,6 +16,7 @@
 # Contribution to the project
 
 *06-12-20*
+
 Here we are, I found a good issue so I posted a comment to ask if I could implement it. No reply from anybody. I got bored and impatient so I decided to start working on it. All I had to do was to create and implement a few files:
 - .docs/hints.md
 - .docs/introduction.md
@@ -27,4 +28,11 @@ I had some questions about the way I was implementing the files so I asked them 
 That night I still had no replies on the issue so I decided to do the [PR](https://github.com/exercism/v3/pull/2898). The first commit didn't pass because I forgot to apply prettier on my files. The second commit passed all the mandatory checks.
 
 *07-12-20*
+
 I still don't have any reply under the issu or the PR. I'm waiting for reviews and for some discussion because this journey feels pretty lonely so far.
+
+*07-12-20 Later*
+
+Around 8pm, the incredibly nice and wholesome maintainer [BethanyG](https://github.com/BethanyG) replied to me. She made a very kind and complete review of my commit and she even replied in details to the questions I asked on the issue.
+I commited all the changes she proposed and I modified the introduction and about documents to add explanations on the slice notation.
+There will be a discussion about the hint file because I might have given too many details or examples, we are waiting on the input from the person who posted the issue.

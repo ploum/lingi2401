@@ -20,7 +20,7 @@ Here we are, I found a good issue so I posted a comment to ask if I could implem
 - .docs/hints.md
 - .docs/introduction.md
 - .meta/design.md
-- .concepts/lists/links.json
+- .concepts/lists/links.json \
 I could also improve some other files but they really just seemed fine to me so I didn't. 
 I had some questions about the way I was implementing the files so I asked them under the issue. No reply from anybody so I decided to do it my way.
 That night I still had no replies on the issue so I decided to do the [PR](https://github.com/exercism/v3/pull/2898). The first commit didn't pass because I forgot to apply prettier on my files. The second commit passed all the mandatory checks.

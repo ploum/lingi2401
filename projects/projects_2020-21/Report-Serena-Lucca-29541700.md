@@ -15,7 +15,7 @@
 
 #Contribution to the project
 
-*06-12-20*a
+*06-12-20*
 Here we are, I found a good issue so I posted a comment to ask if I could implement it. No reply from anybody. I got bored and impatient so I decided to start working on it. All I had to do was to create and implement a few files:
 - .docs/hints.md
 - .docs/introduction.md

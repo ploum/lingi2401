@@ -3,7 +3,7 @@
 **Author:** Serena Lucca \
 **Noma:** 29541700 \
 **Open source project:** [Exercism](https://github.com/exercism/v3) \
-**Academic year:** 2020-2021 \
+**Academic year:** 2020-2021
 
 # Selection of the project
 

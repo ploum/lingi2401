@@ -25,8 +25,10 @@ Some icons in the navigation-bar of the setting's page were vanishing when the "
 After modifying slightly the source code (3 lines changed), I introduced a [pull request](https://github.com/nextcloud/server/pull/24378). The modifications I made were solving the issue but changes slightly the visual aspect of the setting's navigation-bar.
 
 #### Reviews of my contribution
-The little change in the visual aspect of the navigation-bar was mentioned by one of the reviewers of my pull request.
+1. The little change in the visual aspect of the navigation-bar was mentioned by one of the reviewers of my pull request.
 So I shortly explained why I had to make this changes and promise to dig deeper to keep the fix of the icon's problem and still keep the initial visual aspect.
+2. Some hours later, I found a way to fix the initial issue without touching to the initial visual alignement of the navigation column by creating a new css class in the main css file of the projet.
+3. Some days later, a third review from another developper that "refuse" my fix since he found that the fix was too general and that I had to play with html existing classes instead of creating a class to solve this specific issue.
 
 #### To Be continue
-At this time, I'm still working on this slight visual change. And I'll update this report as soon as updates occurs !
+My pull request is still not merged (since it has been rejected by the third review). I'll try to keep working on this since I think I'm not so far from a suitable solution.

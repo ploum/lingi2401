@@ -8,12 +8,12 @@
 ***Academic year*** 2020-2021
 
 ## Introduction
-My project consisted in a translation (english to french) of the Code of Conduct provided by the Contributor Covenant. It hasn't been merged yet, we're still waiting for the last approval.
+My project consisted in a translation (english to french) of the Code of Conduct in a simple ".md" format provided by Contributor Covenant. It hasn't been merged yet, we're still waiting for the last approval.
 
-Website : https://www.contributor-covenant.org/
-GitHub of the project : https://github.com/ContributorCovenant/contributor_covenant
-My issue : https://github.com/ContributorCovenant/contributor_covenant/issues/872
-The pull request : https://github.com/ContributorCovenant/contributor_covenant/pull/876
+Website : https://www.contributor-covenant.org/ \
+GitHub of the project : https://github.com/ContributorCovenant/contributor_covenant \
+My issue : https://github.com/ContributorCovenant/contributor_covenant/issues/872 \
+The pull request : https://github.com/ContributorCovenant/contributor_covenant/pull/876 
 
 
 ### Project Selection

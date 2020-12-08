@@ -1,4 +1,4 @@
-# Open Source Contribution Project (IN PROGRESS)
+# Open Source Contribution Project
 *Author :* Sambon Jean-François
 
 *Date :* 2020
@@ -37,7 +37,7 @@ Then, I needed to find something to do. In this project, the users of the client
 
 ### The contribution
 
-The contribution I did was to update the client with a new location that was added in the game recently. There was a bot on the discord that anounced my pull request directly and I could receive direct feedback on it. Then, the maintener reviewed my code and put it into production. I was surprised of the tactlessness of the reviewer (the review was mainly done on discord) that looked so friendly before but he explained me after that he had many reviews to do and that he had to directly go to the point.
+The contribution I did  was to update the client with a new location that was added in the game recently. There was a bot on the discord that anounced my [pull request](https://github.com/runelite/runelite/pull/12865) directly and I could receive direct feedback on it. Then, the maintener reviewed my code and put it into production. I was surprised of the tactlessness of the reviewer (the review was mainly done on discord) that looked so friendly before but he explained me after that he had many reviews to do and that he had to directly go to the point.
 
 ### Conclusion 
 

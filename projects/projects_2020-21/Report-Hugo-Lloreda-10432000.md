@@ -7,6 +7,14 @@
 
 *Project :* [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 
+*Status of PR :* Waiting for merge 
+
+*Link of the Issue :* https://github.com/TeamNewPipe/NewPipe/issues/4874 (not open by me)
+
+*Link of the PR :* https://github.com/TeamNewPipe/NewPipe/pull/5116 
+
+*Summary :* My contribution aims at correcting a crash of the Newpipe application (Alternative to the proprietary application: Youtube) which happens when you refresh the video stream and delete a video from a playlist.
+
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 
 ## Finding a project to contribute to
@@ -66,7 +74,7 @@ So I relied on the Sout (= System.out.println()) and I noticed that there was a 
 
 ## My contribution
 
-Once the fix was pushed on my repo and tested many times to make sure the problem was fixed (so much so that Google was starting to wonder what was happening on my network), I look at the guidelines for making a [contribution](https://github.com/TeamNewPipe/NewPipe/blob/dev/.github/CONTRIBUTING.md) in the standards. My contribution answering the different points so I send my Pull Request. 
+Once the fix was pushed on my repo and tested many times to make sure the problem was fixed (so much so that Google was starting to wonder what was happening on my network), I look at the guidelines for making a [contribution](https://github.com/TeamNewPipe/NewPipe/blob/dev/.github/CONTRIBUTING.md) in the standards. [My contribution](https://github.com/TeamNewPipe/NewPipe/pull/5116) answering the different points, so I send my Pull Request. 
 
 :warning: to the eyes, photo can hit the most sensitive eyes ***to bad quality photos***.
 

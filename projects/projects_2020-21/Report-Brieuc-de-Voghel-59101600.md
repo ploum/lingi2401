@@ -13,12 +13,6 @@ For a first open source contribution, I wanted to select a project I would use m
 
 Contributing to the real GIMP seemed to be a bit overwhelming though. So I settled for a useful add-on, called GIMP-ML. GIMP-ML allows you to apply advanced Machine Learning and Computer Vision algorithms to your creations. As I've always been interested in these subjects, I decided to get to know the project.
 
-### Getting in touch with the maintainer
-
-As the GIMP-ML library only exists since March 2020 and since there is still no real community, I contacted the project owner (only maintainer for the moment) to know if he would be interested in some help to open up the project to open source. We discussed for a while but I quickly realised he mainly developed the project for himself but decided to publish it anyways.
-
-Luckily, short time after that, the project quickly got popular and some pull requests / issues were posted, and the maintainer seemed to be interested in incorporating those changes.
-
 ## GIMP-ML
 
 ![GIMP-ML](https://github.com/kritiksoman/tmp/raw/master/screenshot.png)
@@ -29,6 +23,13 @@ Reasearchers who developped some image processing tools even asked the maintaner
 
 
 Here is a [list of the different tools](https://github.com/kritiksoman/GIMP-ML#tools) available in GIMP-ML.
+
+
+### Getting in touch with the maintainer
+
+As the GIMP-ML library only exists since March 2020 and since there is still no real community, I contacted the project owner (only maintainer for the moment) to know if he would be interested in some help to open up the project to open source. We discussed for a while but I quickly realised he mainly developed the project for himself but decided to publish it anyways.
+
+Luckily, short time after that, the project quickly got popular and some pull requests / issues were posted, and the maintainer seemed to be interested in incorporating those changes.
 
 ### GIMP switching to Python 3
 

@@ -23,7 +23,7 @@
 
 *06-12-20*
 
-Here we are, I found *the* issue, it was asked to improve a concept exercise in my all time favourite language (Python) about mu all time favourite data structure (`lists`).
+Here we are, I found *the* issue, it was asked to improve a concept exercise in my all time favourite language (Python) about my all time favourite data structure (`lists`).
 I posted a comment to ask if I could implement it. No reply from anybody. I got bored and impatient so I decided to start working on it. All I had to do was to create and implement a few files:
 
 - .docs/hints.md
@@ -32,8 +32,8 @@ I posted a comment to ask if I could implement it. No reply from anybody. I got 
 - .concepts/lists/links.json 
 
 I could also improve some other files but they really just seemed fine to me so I didn't. \
-I had some questions about the way I was implementing the files so I asked them under the issue. No reply from anybody so I decided to do it my way. \
-That night I still had no replies on the issue so I decided to do the [PR](https://github.com/exercism/v3/pull/2898). The first commit didn't pass because I forgot to apply prettier on my files. The second commit passed all the mandatory checks.
+I had some questions about the way I was implementing the files so I asked them under the issue. No reply from anybody for a while so I decided to do it my way. \
+That night I still had no replies on the issue so I decided to create the [PR](https://github.com/exercism/v3/pull/2898). The first commit didn't pass because I forgot to apply prettier on my files. The second commit passed all the mandatory checks.
 
 *07-12-20*
 
@@ -53,7 +53,7 @@ I modified the files according to their comments and commited. I am now once aga
 *08-12-20 Later*
 
 After some more changes and some more code review, I ran prettier one last time and then my PR was merged in the night. \
-[BethanyG](https://github.com/BethanyG) and [valentin-p](https://github.com/valentin-p) were incredibly nice and supportive the whole time, I will keep a very good memory of my first contribution to an open source project ans I hope that i will have the time to do it again soon.
+[BethanyG](https://github.com/BethanyG) and [valentin-p](https://github.com/valentin-p) were incredibly nice and supportive the whole time, I will keep a very good memory of my first contribution to an open source project and I hope that I will have the time to do it again soon.
 
 # What I learned
 

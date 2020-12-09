@@ -49,3 +49,18 @@ There will be a discussion about the hint file because I might have given too ma
 
 During the night, I received more replies from [BethanyG](https://github.com/BethanyG) and a review from the user who posted the issue [valentin-p](https://github.com/valentin-p). \ 
 I modified the files according to their comments and commited. I am now once again waiting for their replies.
+
+*08-12-20 Later*
+
+After some more changes and some more code review, I ran prettier one last time and then my PR was merged in the night. \
+[BethanyG](https://github.com/BethanyG) and [valentin-p](https://github.com/valentin-p) were incredibly nice and supportive the whole time, I will keep a very good memory of my first contribution to an open source project ans I hope that i will have the time to do it again soon.
+
+# What I learned
+
+- how to make markdown files
+- how to use prettier to respect a certain format
+- it's never too late to start a project
+- some people on github are very very nice
+- it is very easy to contribute to exercism
+
+

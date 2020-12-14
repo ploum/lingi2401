@@ -45,7 +45,7 @@ After the presentation of the PR of Matthieu Meert on OpenShot, a Video Editor, 
 
 When going in the Toolbar > Help > About OpenShot > Credits, I noticed that clicking on the Credits button had no effect (while clicking on the other buttons had for effect to pop up a new window).
 
-![Screenshot of the bug.](https://i.ibb.co/GdTSQ7w/PR-Kilian-Maes.gif)
+![Screenshot: https://i.ibb.co/mF10kJp/openshot-before.gif](https://i.ibb.co/mF10kJp/openshot-before.gif)
 
 I decided to create an issue (https://github.com/OpenShot/openshot-qt/issues/3908) to ask to the other contributors if they had the same bug, to be sure it was not something specific to my installation/configuration.
 
@@ -59,7 +59,7 @@ Then I took a look to the source code to see what was the origin of the bug. Luc
 
 Because I had a solution for the bug, I decided to directly send a PR (https://github.com/OpenShot/openshot-qt/pull/3909), without waiting for other contributors of the community to confirm they had the same bug. I thought that if they reproduced the bug, they would want to take a look at the code and they would solve the bug. Because I intended to do it myself, it was useless to make the same work several times.
 
-![Screenshot after solving the bug.](https://i.ibb.co/qr42CBf/PR-Kilian-Maes-2.gif)
+![Screenshot: https://i.ibb.co/Sv77QhQ/openshot-after.gif](https://i.ibb.co/Sv77QhQ/openshot-after.gif)
 
 My pull request was quickly reviewed by an active contributor. He confirmed that I had corrected a bug and he mentioned two improvements I should do in the three lines I had changed... I made the changes and the PR was merged after a few days.
 

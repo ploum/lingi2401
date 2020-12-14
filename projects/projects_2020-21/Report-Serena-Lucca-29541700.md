@@ -55,7 +55,7 @@ I modified the files according to their comments and commited. I am now once aga
 After some more changes and some more code review, I ran prettier one last time and then my PR was merged in the night. \
 [BethanyG](https://github.com/BethanyG) and [valentin-p](https://github.com/valentin-p) were incredibly nice and supportive the whole time, I will keep a very good memory of my first contribution to an open source project and I hope that I will have the time to do it again soon.
 
-# What I learned
+# What I’ve learned
 
 - how to make markdown files
 - how to use prettier to respect a certain format

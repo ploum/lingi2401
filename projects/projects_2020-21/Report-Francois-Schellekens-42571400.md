@@ -56,7 +56,7 @@ There are some automated checks on pull requests, and my first commit didnt pass
 but when i asked on discord, i was explained that my indentation wasn't good and what command to run to reindent the code.
 I pushed my code again after reindenting and correcting a grammar mistake in the dialogue i wrote, and it passed all checks.
 
-My pull request is now waiting to be reviewed by the person in charge of dialogues.
+After making the corrections to the text that the responsable of dialogues suggested, my PR was accepted and merged.
 
 ## Conclusion
 

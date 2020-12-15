@@ -7,7 +7,7 @@
 
 *Project :* [NewPipe](https://github.com/TeamNewPipe/NewPipe)
 
-*Status of PR :* Waiting for merge 
+*Status of PR :* Approved and PR Merged 
 
 *Link of the Issue :* https://github.com/TeamNewPipe/NewPipe/issues/4874 (not open by me)
 

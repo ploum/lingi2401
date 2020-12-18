@@ -62,4 +62,17 @@ Choosing to contribute to a very active project ended up helping me a lot. I fea
 I think that a lot of the people who use the project are newcomers to the programming world, so it was a bit difficult to work with the few details they were giving in their feature proposal or their bug report. However the community was never disrespectful and even kind at times. Someone even made an [issue](https://github.com/eritislami/evobot/issues/448) to thank us for our work. 
 To conclude, even though I had heard stories of people being obnoxious about insignificant details in the open source community, it was a very pleasant  experience and I am pretty sure it will drive me to go deeper in the open source world. See you in another pull request :wink:
 
+### List of community interactions
+#### Pull requests
+* [Volume overload](https://github.com/eritislami/evobot/pull/363) (accepted)
+* [Default volume](https://github.com/eritislami/evobot/pull/417) (accepted)
+* [Sound-cloud links](https://github.com/eritislami/evobot/pull/428) (accepted)
+* [Permission feature](https://github.com/eritislami/evobot/pull/449) (not accepted yet)
+#### Forums, features and issues
+* [Random person thanking us](https://github.com/eritislami/evobot/issues/448)
+* [Soundcloud links issue](https://github.com/eritislami/evobot/issues/328)
+* [Volume overload issue](https://github.com/eritislami/evobot/issues/364)
+* [Standard volume feature](https://github.com/eritislami/evobot/issues/399)
+* [Permission feature](https://github.com/eritislami/evobot/issues/358)
+
 

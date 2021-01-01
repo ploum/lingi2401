@@ -8,7 +8,7 @@
 ***Academic year*** 2020-2021
 
 ## Introduction
-My project consisted in a translation (english to french) of the Code of Conduct in a simple ".md" format provided by Contributor Covenant. It hasn't been merged yet, we're still waiting for the last approval.
+My project consisted in a translation (english to french) of the Code of Conduct in a simple ".md" format provided by Contributor Covenant. My pull request has been merged.
 
 Website : https://www.contributor-covenant.org/ \
 GitHub of the project : https://github.com/ContributorCovenant/contributor_covenant \
@@ -37,4 +37,4 @@ Thus, I started working on the translation and as mentionned in the [README](htt
 That's when I realized that my work could be read by a lot of people (maybe too much), that was very exciting, but even more stressful.
 Once more, it only took few hours to get an answer to it and a couple of other native speakers were ask to review the translation. I worked with amazing people with great ideas, they helped me a lot, even more when I told them that was my very first contribution. They gave some advices and some explanations of the typical workflow for this kind of task.
 ### Conclusion
-Since we are still working on the last changes we want to make to the text, the pull request hasn't been accepted yet. Nevertheless, so far, it has been a great experience and now I hope that our work would help people, which like me, aren't too confident about contributing to an open source project.
+It has been a great experience and now I hope that our work would help people, which like me, aren't too confident about contributing to an open source project.

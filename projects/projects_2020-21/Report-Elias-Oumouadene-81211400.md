@@ -8,8 +8,6 @@
 
 ---
 
-## Motivation
-
 ## Research of this project
 My first idea was to brainstorm on the technology I like to use and specific point I would like to explore : DevOps / TechOps / Scripting / API / Python / Golang. \
 I found then that cloud project would be too difficult for me to contribute as I would have need an instance to use. I never used Golang so it would have give me a not needed difficulty. I then focused on projects that use Python.

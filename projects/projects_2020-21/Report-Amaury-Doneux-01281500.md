@@ -10,7 +10,7 @@
 ## Research and selection of a project
 
 At first I coudn't think of any open source project that I was using. So I checked the open source projects that were flagged as "Great for new contributors". Within those projects, one caught my attention [HospitalRun](https://github.com/HospitalRun/hospitalrun-frontend). Unfortunately, some time passed and as I didn't have that much time left, I decided to move to another project (maybe I'll come back to this one later as I still think it's a good project). 
-I tried to get some info on the project [NodeJS] (https://github.com/nodejs/node) but it did seem a little to big as a first participation.
+I tried to get some info on the project [nodejs] (https://github.com/nodejs/node) but it did seem a little to big as a first participation.
 Finally, as time was flying, I decided to go for the [Exercism](https://github.com/exercism/java) project (the Java track). Indeed, some other students talked previously about it. So it seemed like a good project to start a first contribution in the open source world.
 
 ## Getting acquainted with the project

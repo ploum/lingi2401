@@ -56,7 +56,7 @@ You can now create an account on [ADE-Scheduler](https://ade-scheduler.info.ucl.
 Also: unit test are very important and not to be neglected... and thanks to this whole contribution experience, we actually integrated Travis CI & started writing tests for ADE-Scheduler as well to enable other people to contribute to the project more easily.
 
 
-# Examen - Open source in chess
+# Examen - L'Open Source dans les échecs 
 
 - Lichess: créé en 2010 par Thibault Duplessis
   - A nice [presentation](https://www.youtube.com/watch?v=LZgyVadkgmI) done by him
@@ -75,7 +75,9 @@ Also: unit test are very important and not to be neglected... and thanks to this
 - [Stockfish](https://github.com/official-stockfish/Stockfish) & [LeelaChessZero](https://github.com/LeelaChessZero/lc0)
   - Meilleure entités d'échec au niveau mondial (license GPLv3), utilisé par tous les GM
   - Lc0 est basée sur l'engine propriétaire de Google Deepmind, AlphaZero (reconstruite par la communauté sur base de l'architecture de AlphaZero)
+  - Parler de la [TCEC](https://tcec-chess.com/) ?
 
 - Conclusion
   - Le monde des échecs prouve qu'il est possible de produire le state-of-the art dans un domaine en juste en utilisant la force de la communauté open source.
   - Comme le dit Thibault Duplessis: c'est parfois même avantageux ! Certains outils comme Slack, Travis, etc sont gratuits pour les projets open source et coutent bonbon pour des entreprises...
+  - Pas de contraintes "gérer ses employés", etc. Juste une bande de joyeux lurons qui veulent faire partie d'un projet qui est plus grand qu'eux.

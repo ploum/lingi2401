@@ -131,6 +131,23 @@ allclose(a, a)
 
 La programmation open source pour la recherche scientifique : le cas de Anaconda Inc.
 
+## Commentaires
+
+Suite au cours, j'ai :
+
+- vu mon intérêt grandir pour l'open source et j'ai regardé beaucoup de conférences sur des projets open source ainsi que lu énormément sur le sujet
+- décidé de postuler pour un doctorat dans lequel je développerai un outil open source (dans un domaine où les boites privées priment)
+- continué à contribuer à Numba, mais aussi à Numpy ou ics.py, des outils fortement utilisés dans mes projets
+- découvert énormément d'outils utiles à la C.I. et au linting, que j'ai intégré dans de nombreux projets comme [ADE Scheduler](https://github.com/SnaKyEyeS/ADE-Scheduler)
+- lancé plusieurs projets avec l'objectif de m'entrainer à fournir du code meilleure de qualité : [le package Strong](https://github.com/jeertmans/strong), [Triangulation Delaunay](https://github.com/jeertmans/DelaunayTriangulation) et récemment [texspell](https://github.com/jeertmans/texspell)
+
+Lien vers quelques contributions :
+
+- [Numba](https://github.com/numba/numba/pull/6286)
+- [Numba](https://github.com/numba/numba/pull/6277)
+- [Numpy](https://github.com/numpy/numpy/pull/18193)
+- [ics.py](https://github.com/C4ptainCrunch/ics.py/pull/260)
+
 
 ## 1- Historique 
 

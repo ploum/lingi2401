@@ -74,3 +74,71 @@ In the case of my PR, it was straightforward to solve and it didn't need to inte
 
 
 
+# Présentation finale : l'Open Source dans le milieu médical
+
+## EMR 
+
+* Rôle et fonctionnalités de base d'un logiciel de gestion des EMR (Electronic Medical Records)
+* Motivations pour l'Open Source dans ce domaine :
+    * Prix : souvent très cher pour les logiciels propriétaires
+    * Pays en voie de développement : compatibles avec des ordinateurs ayant peu de ressources (technologie de développement)
+    * Gestion des données sensibles : on sait comment sont traitées les données
+    * Interopérabilité : utilisation de formats non-propriétaires facilite les échanges de dossiers médicaux
+
+## OpenEMR
+
+### Apercu du projet
+
+* Histoire : 
+    * Début en 1998
+    * Groupe d'ami qui veut créer un logiciel EMR pour la maman d'un ami (elle est médecin)
+    * Business model :  
+        * Proposer leur logiciel gratuitement
+        * Faire payer le support, l'installation…
+    * Après quelques années, ils arrêtent le développement et rendent le code public
+    * Le projet est repris par des contributeurs, création d'une communauté OpenSource
+* Technologie : PHP 
+    * On-premise
+    * Cloud based (Amazon)
+* Fonctionnalités (https://demo.openemr.io/openemr)
+* Reconnaissance :
+    * Certification ONC (USA => logiciel EMR complet)
+    * Bossi Award "Best Open Source Application" en 2012 et 2013
+* Quelques chiffres :
+    * Github : 160 développeurs
+    * SourceForge : +- 5000 téléchargements/mois
+    * Il y a quelques années : + de 40 000 médecins l'utilisent
+    * Support : 30 entreprises réparties sur une dizaine de pays
+* License: GPLv3
+
+### Business model
+
+* Dons acceptés depuis 2018 pour
+    * Software development (rémunération de contributeurs actifs)
+    * Audits de sécurité
+    * Documentation de qualité
+    * Orientation vers Raspberry etc : achat du matériel etc
+    * Assister à des conférences, des hackatons
+    * Marketing : s'imposer sur le marché des EMR
+* Quelques sponsors
+
+### Securité
+
+* 2017 : grosse faille de sécurité (liée à la BD)
+* 2018 : 30 bugs/failles (+- critical) trouvées par un groupe de cyber sécurité
+* 2020, novembre : nouvelle faille compromettante corrigée
+* Frein pour l'adoption d'OpenEMR pour les plus grosses structures ?
+* Données très sensibles (+ que données bancaires)
+
+### Lien avec la gestion du COVID19
+
+* Besoin de pouvoir partager rapidement des données : interopérabilité
+    * Entre hôpitaux
+    * Aux personnes en charge de la gestion globale
+
+* Exemple de GNU Health, qui est un outil complet pour la gestion de
+    * Suivi des clusters (intégration OpenStreetMap)
+    * Niveau d'occupation des hôpitaux, personnel disponible...
+    * Screening (via extensions)
+    * Certificat de décès etc
+    * Utilisé dans plusieurs hôpitaux sud-africains

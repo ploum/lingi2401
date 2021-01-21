@@ -56,15 +56,16 @@ You can now create an account on [ADE-Scheduler](https://ade-scheduler.info.ucl.
 Also: unit test are very important and not to be neglected... and thanks to this whole contribution experience, we actually integrated Travis CI & started writing tests for ADE-Scheduler as well to enable other people to contribute to the project more easily.
 
 
-# Examen - L'Open Source dans les échecs 
+# Examen - L'Open Source dans les échecs
 
 - Lichess: créé en 2010 par Thibault Duplessis
   - A nice [presentation](https://www.youtube.com/watch?v=LZgyVadkgmI) done by him
+  - Initial purpose: playing around with new AJAX features
   - Second plus gros site d'échecs en ligne après chess.com
-  - Business plan = pas de business plan ! C'est un vrai "free software" (100% gratuit, 100% ad-free) sous la licesne AGPLv3
+  - Business plan = pas de business plan ! C'est un vrai "free software" (100% gratuit, 100% ad-free) sous la license AGPLv3
   - Donations pour financer leurs ~10 serveurs principaux et c'est tout
   - Grande liberté par rapport à la concurrence qui sont tous "propriétaires" (chess.com, chess24.com, etc.)
-  - Prouve que il est tout à fait possible d'avoir des vrais free software qui ne sont pas "money-driven" et de concurrencer les boites "capitalistes"
+  - Prouve que il est tout à fait possible d'avoir des vrais free software qui ne sont pas "money-driven" et de concurrencer les boites "capitalistes" (par opposition aux jeux "gratuits" mais pay2win)
 
 - Engine analysis
   - Feature: analyser les partie avec un engine d'échecs
@@ -75,7 +76,7 @@ Also: unit test are very important and not to be neglected... and thanks to this
 - [Stockfish](https://github.com/official-stockfish/Stockfish) & [LeelaChessZero](https://github.com/LeelaChessZero/lc0)
   - Meilleure entités d'échec au niveau mondial (license GPLv3), utilisé par tous les GM
   - Lc0 est basée sur l'engine propriétaire de Google Deepmind, AlphaZero (reconstruite par la communauté sur base de l'architecture de AlphaZero)
-  - Parler de la [TCEC](https://tcec-chess.com/) ?
+  - Parler de la [TCEC](https://tcec-chess.com/) (où Lc0 affronte actuellement Stockfish)
 
 - Conclusion
   - Le monde des échecs prouve qu'il est possible de produire le state-of-the art dans un domaine en juste en utilisant la force de la communauté open source.

@@ -65,7 +65,7 @@ After some more changes and some more code review, I ran prettier one last time 
 
 # Oral exam: Tor
 
-## Why I chose Tor *this was added post exam*
+## Why I chose Tor *(this was added post exam)*
 For some reason (watching mr robot actually) I became fascinated with cybersecurity and cryptography a few years back and at that time, I decided to install kali linux and use tor browser. I soon came to realization that those were quite useless to me for the use I made of my computer and the internet (Facebook and Youtube basically). I stopped using them because it was to complicated and unnecessary but I learned a few things thanks to that experience.
 I still am very interested in cybersecurity and cryptography so I wanted my presentation to be on a subject linked to that. I don't use Tor nowadays but I see the great importance of tools like this one in the matter of privacy, anonymity, online freedom and anti-censorship hence why I decided to choose to present Tor
 
@@ -82,7 +82,7 @@ Tor launched in 2002.
 Code released under free license in 2004. 
 Tor project founded in 2006.
 
-FYI: DARPA is an 
+*added post exam* FYI: DARPA is an R&D agency of the US dept of defense responsible for the development of emerging technologies for use by the military. DARPA is known for supporting a precursor of the intenet during the cold war because they were scared that if a nuclear attack happened, communication would be lost between east and west coast of the us.
 
 ## License
 Modified BSD license
@@ -133,7 +133,8 @@ Operation Onymous was formed as a joint law enforcement operation between the Fe
 "It would be great if there were more people reviewing our designs and code. For example, we would really appreciate feedback on the upcoming hidden service revamp or help with the research on guard discovery attacks" (Tor relying on community)
 
 "Tor currently doesn't have funding for improving the security of hidden services. If you are interested in funding hidden services research and development, please get in touch with us." (Tor business model)
-"One of our priorities remains to continue working to reduce our reliance on US government sources." (Tor business model)
+
+"One of our priorities remains to continue working to reduce our reliance on US government sources." (US gov founded 80% of Tor project in 2012, in 2019 it was 42%)
 
 Agents of the NSA and the GCHQ have anonymously provided Tor with bug reports.
 So you can imagine one part of GCHQ is trying to break Tor, the other part is trying to make sure it's not broken because they're relying on it to do their work.
@@ -142,7 +143,13 @@ So it's typical within governments, or even within large agencies, that you have
 ## Sources
 
 https://www.bbc.com/news/technology-28886462
+
 https://en.wikipedia.org/wiki/Tor_(anonymity_network)
+
 https://www.torproject.org/
+
 https://en.wikipedia.org/wiki/BSD_licenses
+
 https://blog.torproject.org/
+
+https://en.wikipedia.org/wiki/DARPA

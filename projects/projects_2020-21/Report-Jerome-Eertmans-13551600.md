@@ -127,3 +127,137 @@ allclose(a, a)
 >>> 59.4 µs ± 221 ns per loop (mean ± std. dev. of 7 runs, 10000 loops each)
 ```
 
+# Oral examination content
+
+La programmation open source pour la recherche scientifique : le cas de Anaconda Inc.
+
+## Commentaires
+
+Suite au cours, j'ai :
+
+- vu mon intérêt grandir pour l'open source et j'ai regardé beaucoup de conférences sur des projets open source ainsi que lu énormément sur le sujet
+- décidé de postuler pour un doctorat dans lequel je développerai un outil open source (dans un domaine où les boites privées priment)
+- continué à contribuer à Numba, mais aussi à Numpy ou ics.py, des outils fortement utilisés dans mes projets
+- découvert énormément d'outils utiles à la C.I. et au linting, que j'ai intégré dans de nombreux projets comme [ADE Scheduler](https://github.com/SnaKyEyeS/ADE-Scheduler)
+- lancé plusieurs projets avec l'objectif de m'entrainer à fournir du code meilleure de qualité : [le package Strong](https://github.com/jeertmans/strong), [Triangulation Delaunay](https://github.com/jeertmans/DelaunayTriangulation) et récemment [texspell](https://github.com/jeertmans/texspell)
+
+Lien vers quelques contributions :
+
+- [Numba](https://github.com/numba/numba/pull/6286)
+- [Numba](https://github.com/numba/numba/pull/6277)
+- [Numpy](https://github.com/numpy/numpy/pull/18193)
+- [ics.py](https://github.com/C4ptainCrunch/ics.py/pull/260)
+
+
+## 1- Historique 
+
+    1940-1960 : automatiser des tâches répétitives (calculs) 
+
+    1980 : abstraction de plus en plus présente (OOP) 
+
+    1980 : langages visuels (MATLAB, LabVIEW ou Wolfram) mais propriétaires €€ 
+
+    1990 : internet arrive… Python (licence PSF)  (3ème) et R (licence GNU GPL) (9ème) aussi ! 
+
+## 2- Python (et R) sort du lot 
+
+    Enormément de librairies 
+
+    Peut utiliser du C 
+
+    Langage interprété 
+
+    1995 : Numeric devenu Numpy (BSD) en 2005 
+
+    2000, 2.0 : plein d’ajouts majeurs dont GC et support Unicode 
+
+    2001 : Scipy (BSD) 
+
+    2003 : Matplotlib (Licence MPL ~ BSD ~ PSF) 
+
+    2008 : Pandas (BSD) et Python 3.0 
+
+    2015 : fin de vie initiale de Python 2.7 
+
+## 3 - Petite digression 
+
+- En 2020, un pacte est signé pour arrêter le support de Python 2.7 : https://python3statement.org/. 
+
+- Python utilise plein de noms basés sur les sketchs des Monty Python. 
+
+## 4 - Plein d’outils… mais comment les combiner ? 
+
+    2012 : Création de Anaconda & Conda 
+
+    Vente de serveur Anaconda 
+
+    Création de NumFocus & PyData, Numba, Bokeh & Blaze 
+
+    2015 : investissement à risque de la part de plusieurs groupes 
+
+    2017 : première convention 
+
+    Anaconda lance un solution entreprise 
+
+    2020 : Anaconda lance une solution équipe 
+
+    Clients : American national bank, AT&T, Toyota, ExxonMobil, HSBC, BMW, etc. 
+
+## 5 - Conda 
+
+    Pure-Python est cross-platform 
+
+    Compiler ne l’est pas => installation compliquée 
+
+    Conda résout ce problème 
+
+## 6 - NumFOCUS (& PyData) 
+
+    Fondée en 2012 
+
+    Créateurs de Numpy, IPython, Astropy, Matplotlib et Scipy 
+
+    Organisation à but non lucratif 
+
+    But éducationnel 
+
+    Organise surtout des conférences 
+
+    Sponsorisés par Anaconda, Booking.com, JetBrains, Tesco, Ebay, etc.  
+
+## 7 - Numba 
+
+    Utilise LLVM (BSD-like) 
+
+    Performance de Python proche du C 
+
+    Résout pas mal de problèmes liés à l’abstraction  
+
+## 8 - Bokeh 
+
+    Alternative (BSD) à PlotlyJS (MIT) 
+
+    Pas aussi mature pour la 3D 
+
+    PlotlyJS offre des solutions payantes, pas Bokeh 
+
+## 9 - Blaze  
+
+## 10 - Plein d’autres projets 
+
+    Dask 
+
+    Jupyter 
+
+    Spyder IDE 
+    
+## Liens
+
+- https://anacondacon.io/peter-wang-bio
+- https://www.anaconda.com/about-us
+- https://www.anaconda.com/press
+- https://www.anaconda.com/press/anaconda-launches-anaconda-dividend-program-to-give-back-to-open-source-community
+- https://fr.wikipedia.org/wiki/Anaconda_(Python_distribution)
+- https://pydata.org/
+- https://numfocus.org/history
+- https://python3statement.org/

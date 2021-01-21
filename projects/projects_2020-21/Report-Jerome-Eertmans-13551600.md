@@ -129,7 +129,8 @@ allclose(a, a)
 
 # Oral examination content
 
-La programmation open source pour la recherche scientifique : le cas de Anaconda Inc. 
+La programmation open source pour la recherche scientifique : le cas de Anaconda Inc.
+
 
 ## 1- Historique 
 
@@ -232,3 +233,14 @@ La programmation open source pour la recherche scientifique : le cas de Anacon
     Jupyter 
 
     Spyder IDE 
+    
+## Liens
+
+- https://anacondacon.io/peter-wang-bio
+- https://www.anaconda.com/about-us
+- https://www.anaconda.com/press
+- https://www.anaconda.com/press/anaconda-launches-anaconda-dividend-program-to-give-back-to-open-source-community
+- https://fr.wikipedia.org/wiki/Anaconda_(Python_distribution)
+- https://pydata.org/
+- https://numfocus.org/history
+- https://python3statement.org/

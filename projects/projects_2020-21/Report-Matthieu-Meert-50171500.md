@@ -60,3 +60,60 @@ I have learned many things with this project. I have pointed out some of them:
 
 Finally, it is way funnier to contribute to a project you actually use than just contributing to anything to have the points for this course's project. I'm glad I have finally found such a project and very happy to have made my first contribution!
 
+# Examen
+
+J'ai décidé de parler de Rasa = framework qui permet d'automatiser des assistants textuels et vocaux (chatbot et assistant vocal).
+
+## Pourquoi Rasa?
+
+* je l'utilise pour mon mémoire
+* le projet illustre bien plusieurs aspects du cours (notamment le business model)
+* j'ai été impressionné par la vitesse d'évolution du projet et à quel point l'open source est central dans leur vision
+
+## Création du projet 
+
+* 2016, deux allemands
+* chatbot = difficile -> frustrés des outils propriétaires disponibles 
+    * pas si performants
+    * pas si personnalisables
+    * black box
+    * risque de devenir payant/arrêt
+* meetup group -> la plupart parlent de faire leur propre implémentation
+* blog post sur comment le faire from scratch -> beaucoup d'intérêt mais personne ne le fait en pratique
+* décident d'open sourcer leur propre implémentation
+    * drop&replacement pour les API existantes
+    * compatible, c'est facile de switcher
+    * sous licence Apache 2.0
+
+## Financements
+
+ * 2019: obtiennent financement de $13M (Accel)
+ * permet d'investir dans:
+    * la communauté
+    * le programme
+    * la recherche
+    * le département marketing
+* sortie de Rasa X = outil gratuit mais propriétaire utilisé pour améliorer un assistant créé avec Rasa Open Source
+* Rasa X est sous leur propre licence Rasa Community Edition License:
+    * autorisé: utiliser à des fins commerciales ou privées, héberger
+    * interdit: modifier, utiliser comme bas pour faire un outil de compétition, reverse engineering
+* 2020:  second financement de $26M (Andreessen Horowitz)
+
+## Business Model et Vision
+
+Aujourd'hui, ils proposent 3 solutions:
+* Rasa Open Soure: gratuit, open source -> permet de construire et entrainer un assistant performant
+* Rasa X: gratuit, propriétaire -> permet d'avoir un feedback direct des utilisateurs, collecter et analyser les conversations des testeurs, utiliser un système de controle de versions intégré basé sur git
+* Rasa Entreprise: payant, propriétaire -> contient tout ce qu'il y a dans Rasa Open Source et Rasa X, avec en plus des fonctionnalités qui répondent à la complexité organisationnelle d'une grande entreprise
+
+Business Model = open core
+* répartition juste des fonctionnalités entre les 3 produits
+* "juste" = combiinaison de la valeur que les utilisateurs tirent du projet et les ressources qu'ils ont
+
+Vision:
+* objectif long terme = fournir la couche d'infrastructure standard pour l'IA conversationnelle
+* faire une IA conversationnelle vraiment performante = très difficile, on y est pas encore du tout! 
+
+    * chacun peut apporter sa pierre à l'édifice que ce soit en discutant/proposant des modifications/trouvant des erreurs/participant à la communauté, ou en prenant un contrat payant qui va permettre de faire avancer le travail et la recherche 
+
+    * c'est un challenge global auquel on travaille tous ensemble!

@@ -1,7 +1,9 @@
 # Open source contribution project
 
 **Author:** Lionel Mbafumoya Tchomba
+
 **Noma:** 13172001
+
 **Academic year:** 2020-2021
 
 ## Summary
@@ -111,3 +113,86 @@ Today, I would do it differently by gathering community support faster and pushi
 The change has not yet been accepted or merged to date. In the meantime, the project that the bank worked on was shipped to the client with a custom fix. But I am waiting for my pull request to be looked at by the author of the project. Since I really believe in the relevance of the feature request, I am planning to lobby the users that showed interest in the feature to support the latest PR.
 
 This experience, especially the fact that I had to maintain a local change on my own, instead of relying on the community, made me realise how important contributing to open-source projects can be. Furthermore, if we had to create a comparable library from scratch, we would never have been able to finish the project on time and as a consequence within budget.
+
+# LINGI2401 Exam: Banking and open-source
+
+## Background
+
+The banking sector overwent a major shift in the last decade. With the rise of financial startups and technologies, traditional banking instutions, which were for a long time shielded by strict regulations (barrier to entry), suddently started to face competition from new players in the newly created fintech sector which were raising considerable amounts of money.
+
+Keeping up with those new players required new approaches and paradigms. The market demanded innovation at a quicker pace.
+
+## Resistance
+
+Banks were resistant to adopt open-source technologies that they saw as a security risk factor: the openness and the scrutiny that comes with it were feared. That feared was fueled that the belief that if hackers were able to see the code, would it not be easier for them to hack it.
+
+Furthermore, banks believed that protecting their intellectual property (IP) was a competitive advantage. The potential legal risks were also high as licenses were not very well understood and improper use was feared.
+
+Also, they believed that the clients cherished the human interaction provided in their physical branch.
+
+## Drivers of change
+
+The rise of financial services such as PayPal, Revolut, N26 and cryptocurrencies such as Bitcoin and Ethereum provided the competition that was needed by the banking sector to reconsider their approach. The innovation and new services proposed by those companies were existantial threats to the more established financial institutions.
+
+Cryptocurrencies proved that secured transactions could be carried over an open-source ledger while using cryptography to protect user data. Moreover, the high adoption rate provided a rebutal to the long held belief that customers would never trust open-source technology.
+
+After the financial crisis of 2008, new regulations were put in place to mitigate the risks that a particular default can pose. Additionnally, new regulations such as PSD2 (interoperability of payment framework, payment reglementation), GDPR (framework for user data protection and privacy) and MiFID 2 (legal framework for financial instruments) made banks reconsider their approach since new innovation and automation was needed at a faster pace. It became costly to do it alone.
+
+## Digital transformation
+
+Quicky, all the banking sector had two words in its mind: Digital transformation. But how? The sector was heavily under staffed and constantly coming up with new innovation was costly. Additionnally, the supply of Software Engineers was limited.
+
+The sector had to renew their interest at open-source. Big communities of developer could provide the multiple eyes needed to mitigate the security risks, innovate at a faster pace, provide virtually free components to reduce the costs associated with hiring staff and maintaining proprietary systems. Furthermore, new well-defined license such as MIT and Apache 2.0 provided stable and well-understood frameworks for legal concerns.
+
+However, the use of open-source could only be cost-effective if clear standards were implemented.
+
+A need that arose from the regulations to evaluate risks is the implementation of AI tools to determine a risk score from each individual client, anti-money laundering technologies.
+
+## Move to open-source
+
+The following benefits of the use of open-source are:
+**Lower costs**: eliminate costs from software vendors and hiring staff.
+**Reduce time-to-market**: reduce development time by integrating existing modules.
+**Easily customizable**: provide the mean benefits between buying a proprietary solution and developing one in-house.
+**No vendor lock-in**: not bound to any vendor.
+**Lower learning curve for new joiners**: a community project is usually on the based on the best practices.
+
+The benefits of contributing to open-source have been identified as:
+**Good for corporate image** by giving back to the community.
+**Transparency**: the code can be reviewed by anyone.
+**Easier hiring of resources**: attracting and identifying resources can be made easier.
+**Cultural exchange**: promote collaboration between different communities.
+**Gain from testing and extensions** built by outside contributors.
+**Facilitates collaboration between different banks** on shared concerns like KYC (Know Your Customer) and AML (Anti-Money Laundering)
+
+The potential inconvenients are:
+**Contractual and legal**: keeping up with the various licenses.
+**Support**: some open-source project lack the community support expected by large banks.
+**Compliance and security**: open-source projects that are not yet mature can pose serious security risks.
+**Give away competitive advantage**: banks must identify features that are commodity from the ones that offer a competitive advantage.
+**Brand risk**: the fear that open-source might cheapen the brand.
+
+## Popular open-source entities and projects
+
+* **FINOS** (Fintech Open Source Foundation) was created in 2014 to provide an independent setting to deliver software and standards that address common industry challenges and drive innovation. Link: [The Fintech Open Source Foundation (www.finos.org)]. Some of the financial institutions that are collaborating with the foundation are JP Morgan Chase, Morgan Stanley, Citi, Goldman Sachs, UBS, RBC (Royal Bank of Canada), Capital One, HSBC, BNY Mellon, Well Fargo, Deutsche Bank.
+
+* **JP Morgan Chase**, the biggest bank in the world by market capitalisation, has released several open-source projects, Quorum is the most popular. Quorum is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms. Quorum has been published under the GNU Lesser General Public License v3.0.
+
+* **Capital One**, one of the biggest credit card bank in the US has made the commitment to make open-source the core element of its digital transformation journey.
+
+* **Goldman Sachs** has published its Alloy algorithm which was proprietary until then. Alloy lets you design, build, and publish data pipelines. It was notably standartised by FINOS to decouple the algorithm and Goldman Sachs under the Apache License 2.0.
+
+* In Europe, **Deutsche Bank** contributed to multiple open-source projects. Notably Plexus Interop (from its electronic trading platform Autobahn) or Waltz (IT estate management). Both projects were published by FINOS under the under the Apache License 2.0.
+
+## Conclusion
+
+The big shift of paradigm from proprietary software to open-source in one of the most conservative sectors is a testament to how important the approach is and will be in the future of innovation in the technology sector.
+
+## References
+
+* [Banks are finally embracing the Open Source movement]
+* [Why banking is just now embracing open source technology]
+* [The Best 8 Free and Open Source Banking Software Solutions]
+* [quorum]
+* [Goldman Sachs Open Sources Data Modeling]
+* [Fintech Open Source Foundation]

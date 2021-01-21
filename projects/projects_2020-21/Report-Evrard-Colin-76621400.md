@@ -76,3 +76,23 @@ To conclude, even though I had heard stories of people being obnoxious about ins
 * [Permission feature](https://github.com/eritislami/evobot/issues/358)
 
 
+_________________
+# Oral exam's plan transcript.
+## Julia presentation.
+### Its defining features.
+### Its history.
+## Julia and its competitors.
+### Matlab, R and python.
+## Julia as a standard.
+### How easily julia code can be integrated as a backend within R, python, Matlab.
+## Business model & funding.
+### Academic funding.
+### NumFOCUS.
+### Julia Computing.
+## Community.
+### Still not the most welcoming.
+### Cryptic documentation.
+## Julia security.
+### Dangers of freely available distributed computing.
+### Still a young language, might not be suitable for critical application.
+

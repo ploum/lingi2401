@@ -89,3 +89,61 @@ Some hours later my [PR](https://github.com/FredJul/Flym/pull/725) was accepted.
 
 ## Conclusion
 Despite the time I spent looking for an open-source project, observing the organisation of the different communities, and the two failed attempts, I finally managed to have a [PR](https://github.com/FredJul/Flym/pull/725) accepted in an open-source application that I was using.
+
+
+# Plan 
+
+***Sujet:*** OpenStreetMap
+
+## Qu'est ce que OpenStreetMap ?
+
+DB géographique/ tuiles / télécharger / exploiter
+
+(+/-) "le Wikipédia de la géographie"
+
+## Histoire du projet
+
+Raison : Bcp de cartes pas libres -> restrictions
+
+Début 2004 et en 2006 : Fondation -> but non lucratif
+
+## Business model
+Gratuit/ dons/ bénévoles
+### Limitations
+Pas d'API pour visionner les données / contraintes : téléchargement données, processus, entêtes http...
+=> données/code libre avec serveur non libre.
+
+## Licence
+CC-BY-SA (creative common) -> littéraire/ artistique
+
+En 2010 : ODbL -> base de données et CC-BY-SA -> tuiles
+
+ODbL : la Open Knowledge Foundation/ libre de copier, distribuer, transmettre  -> créditer OpenStreetMap et ses contributeurs
+
+2012 : fin de transition
+
+2020 : Tuiles produits de l'ODbL -> 1 licence, fin de la creative common
+
+## Anecdote récente : flight simulator (Microsoft)
+## Communauté
+### plus ou moins le même principe que Wikipédia
+Tout le monde peut envoyer des données
+
+### Plus "officiels" par pays
+France/ Belgique
+Codeurs/cartographes/ site officiel / GitHub
+
+### Des entreprises privées
+Facebook 
+Apple 
+Microsoft ...
+
+## Centralisation
+Décentralisé par pays : langue contribution.
+Même au niveau régional : 
+En Flandre -> néerlandais
+En Wallonie -> français 
+
+## Autour du projet
+Kartaview / Mapillary  : alternative à streetview en creative common
+Bing map de Microsoft, Qwant maps,Certains GPS, application open source android comme google maps: Osmand+  ...

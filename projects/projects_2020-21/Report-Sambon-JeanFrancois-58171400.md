@@ -96,3 +96,24 @@ Adam-
 912847c worldmap: add Getting Ahead quest start location - Adam
 
 Discord channel : https://discord.com/invite/mePCs8U
+
+
+# Plan oral exam (Subject : runescape and runelite)
+## Runescape presentation
+### History of runescape.
+### Link between runescape and open source
+## Runescape and runelite community
+### Horizontal power vs vertical power
+### Push to open source solutions 
+## Business model
+### Runescape business model and economy
+### Emergence of opensource bot
+## Runelite.
+### History of runelite
+### BSD licence
+### Decentralization power
+### Advantages of runelite as an opensource solution
+## Security.
+### More trust in runelite because it is open source
+### Not absolute security
+## Conclusion

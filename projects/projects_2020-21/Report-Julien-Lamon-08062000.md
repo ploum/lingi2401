@@ -41,7 +41,11 @@ The pull request has just been reviewed. Since it is textual, I will need 3 revi
 
 ## 01/12
 
-Up to this day, two reviewers already reveiwed the pull request. I am still waiting for the last 24 days that the last reviewer comes as well... 
+Up to this day, two reviewers already reveiwed the pull request. I am still waiting for the last 24 days that the last reviewer comes as well...
+
+## 30/12
+
+After almost two months of waiting, the merge request finally got approved !
 
 ## Conclusion
 

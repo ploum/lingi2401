@@ -87,3 +87,60 @@ Here is the [issue#9011](https://github.com/notepad-plus-plus/notepad-plus-plus/
 
 ## Conclusion
 After having contributed to this open source project, my vision about this "universe" change a lot. At the beginning I was afraid to not be really useful or to write code not sufficiently good enough to be accepted. But after a few tries, I managed to do it and I think that I will probably contribute again to the open source world in the near future!
+
+# Oral Presentation
+Projet: Notepad++
+
+Horaire de passage: 9h45
+## What?
+Type de logiciel: Editeur de texte open source pour Windows.
+
+Autheur: Don Ho
+
+## License
+Type: GPL v.2
+
+Pourquoi pas GPL v.3? -> Pas d'intérêt majeur (Don Ho)
+
+Avantages GPL v.3?
+* Contre la Tivoïsation
+* Contre les brevets (pas tous)
+
+## Business Model
+Projet principal ? -> Non
+
+Points Forts :
+* Léger et rapide
+* Indentation assistée
+* Support de beaucoup de language
+* Beaucoup de plugins
+* ...
+
+Points Faibles :
+* Assez Complexe
+* Pas très joli
+* ...
+
+### Logiciel engagé
+
+Défend les droits humains et la liberté d'expression!
+* https://notepad-plus-plus.org/news/v781-free-uyghur-edition/
+* https://community.notepad-plus-plus.org/topic/20523/please-leave-software-far-away-from-politics
+
+Conséquence(s) ? -> Insultes & attaques multiples du site web
+
+## Communauté
+Type? -> Dictature éclairée (Don Ho choisit mais les users proposent)
+
+Règles de contribution ->  (https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/CONTRIBUTING.md)
+
+### Outils :
+* Gittter (https://gitter.im/notepad-plus-plus/notepad-plus-plus) : messagerie instantanée relié à GitHub
+* Site Communautaire (https://community.notepad-plus-plus.org) : 
+pour les questions d'utilisation générales
+* Manuel Utilisateur (https://npp-user-manual.org/)
+* GitHub aujourd’hui (pour le code et le débogage)
+* SourceForge avant (Pourquoi? -> liberté d'expression)
+
+## Sécurité (Bonus):
+Scilexer.dll a un certificat, pourquoi? -> Hack de la CIA

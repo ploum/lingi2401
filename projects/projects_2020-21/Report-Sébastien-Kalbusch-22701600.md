@@ -52,3 +52,65 @@ I decided to do it by following the style of the other snippets and made a pull 
 https://github.com/pgourlain/vscode_erlang/pull/171
 The pull request was merged a few days later.
 It was my first contribution to an open source project and even though it was not the project I initially planned to contribute to, this is where I begin.
+
+
+# Exam: MMX project
+
+https://www.youtube.com/c/Wintergatan/videos
+
+## Introduction
+Building a mecanical marble machine for the Wintergatan music band to go on a world tour.
+Martin Molin is the project creator and main contributor.
+For the last 4 years he has been showing his progress via youtube on a weekly basis.
+
+A while ago, he decided to be open to contributions and now call this project "open source".
+But is it really an open source project ?
+It is also interesting to look how non software open source projects work.
+
+Two distinct parts:
+1. Building a marble machine (+ softwares)
+2. Producing music
+
+## Licences
+- For the design: creative commons license (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+- Software developped for the project (virtual machine): MIT licence.
+https://github.com/wintergatan-community/virtual-mmx/blob/master/LICENSE
+
+- For the music:
+https://wintergatan.net/collections/download/products/license-to-use-wintergatan-music-for-video-and-livestream-background-music).
+Do not give the right to modify.
+
+## Business model
+Wintergatan sells music and concert tickets not the machine.
+- Online store with "blue print" sweater and posters to support the project.
+- Music tracks and notes in "pay what you want".
+- Donnation through Patreon or youtube membership.
+
+## Community
+Dictatorship (everything passes through Martin Molin).
+No direct access to all the CAD files (could not find any version control system) but, Martin Molin mentionned to release them when the project will be completed.
+Certain tasks are distributed among community members.
+
+### Communication channels
+- Youtube channels: communication through video and comments
+- Discord server: different channels (engineering, CAD, idea, community, ...)
+
+### Different kinds of contributions
+- Design idea
+- CAD files
+- Providing materials
+- Part manufacturing
+- Managment and organisation (who will contribute to what, google spread sheets to keep track of the prograssion)
+- Video production
+
+## Conclusion
+Many similarities with open source projects but the full sources are not directly available.
+An important part of open source is to be able to modify and redistribute.
+This is not possible at the moment.
+Might be acceptable since the project is still in development.
+
+To make the project more open source, it needs a version control system with accesible source files and a more "static" communication system.
+Discord is not very good for that. Mostly a one-way communication (community is too large).
+

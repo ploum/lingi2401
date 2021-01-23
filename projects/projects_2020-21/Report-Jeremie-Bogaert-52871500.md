@@ -31,3 +31,19 @@ After reading the "How to contribute" web page, and with the will of doing the t
 ## Conclusion
 
 By wanting not to bother anyone, I actually lost time for nothing, and ended up bother the developers anyway. If I have to keep something in mind from this (traumatic) experience, I would say that a useless question will always be better for everybody than a useless pull request. Moreover, the community was really kind and helped me a lot to achieve this project so there is no fear to have in bothering the developers. I'm glad that I've done this open source contribution, because I couldn't have learned better how to contribute otherwise and because it satisfies me a lot to think I helped (even if it was a minor bug fix). Maybe I will comeback in the future to contribute again to this very useful package.  
+
+## Exam : Hackathon
+
+Prévu de parler de traitement de fake news mais cool de sortir des sentiers battus
+Hackathon = hack + marathon = groupe de dev qui codent pour un projet pendant quelques jours  -> initialement lié a la cybersécurité mais plus forcément maintenant
+Hackathon pas forcément open source, mais très lié (premier hackathon openBSD qui donnera naissance a openSSH, juin 1999). Repris par beaucoup de boites (toutes les grosses entreprises de la silicon valley) que ce soit en interne, ou en externe.
+
+En interne, hackathon fb a donné naissance au like ou a la timeline notamment. On le voit dans le film the social network.
+En externe plus difficile de savoir quels projets sont issus de hackathons car énormément de projet construisent une base durant les hackathons puis continuent le développement par la suite.
+Pose la question des droits d’auteur et de la propriété intellectuel sur le code pour ce qui est codé durant le hackathon.
+Hackathon pour recruter des potentiels employés, notamment google hash code (auquel j’ai participé)
+Hackathon pas open source, polémique dans la communauté (hackathon pour bnp paribas ou les idées sont gardées par la boite).  Considéré comme pas joué le jeu et accepter que les gens participent au projet sans leurs permettre de profiter du projet.
+Hackathon ouvertement open source, tout doit être disponible en ligne ou doit être une contribution a un projet déjà disponible en open source (hacktoberfest et game off notament). Lien : https://opensource.com/tags/hackathon
+Stats hacktoberfest : 41% des participants n’avait jamais participé a un projet open source, 50% étudiant, 60% des participants étaient la uniquement pour apprendre. Lien avec mon parcours dans l’open source. Lien : https://hacktoberfest.digitalocean.com/
+
+A plus grande échelle, cas de la chine : En quelques années, la chine est passée parmi les premiers pays contributeur sur des projet open source notamment open stack (cloud computing). Grace a des nombreux hackathons organisés par des grosses sociétés (huawei, tencent, …), aidé les développeur a se lancer dans le monde de l’open source. But recherché, en chine les gens sont souvent très compétents dans leur domaine mais ont beaucoup de mal a collaborer, le but recherché était de les faire s’asseoir autour d’une table et favoriser l’échange -> lien avec la liberté d’expression, surtout en chine.

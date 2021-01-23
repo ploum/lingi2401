@@ -50,3 +50,4 @@ If I remember the first classes correctly, the teacher said an important goal of
 * Dictatorship ? : only a small developer team able to commit.
 * Dictatorship is good to avoid error: security is a complicated field.
 * But open to community: bugtracking, IRC channel, everyone can modify anything about the Linux distribution on their own.
+* Very good documentation.

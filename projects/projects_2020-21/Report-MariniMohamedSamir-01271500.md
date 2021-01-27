@@ -31,3 +31,34 @@ I knew that if I made a pull request directly to fix the bug it would be accepte
 The next day the pull request was merged.
 
 
+# Présentation finale (examen) : Fait d'actualité ElasticSearch n'est plus opensource
+
+#### Introduction :
+- Fait d'actualité qui a divisé la communauté open-source
+- ElasticSearch passe d'une licence open-source à une licence qui ne l'est pas
+#### Présentation :
+- Qu'est-ce que le projet ElasticSearch ?
+- Evolution du modèle, des licences et de l'activité de l'entreprise Elastic et du projet open-source
+- Adoption par AWS (Amazon) du projet
+#### Début des problèmes :
+- Elastic ne veut pas s'associer au nom Amazon Elasticsearch Service
+- Amazon se sent menacé par la direction que prend le projet open-source, notamment : 
+  - Le mélange de code open-source (Apache 2.0) et de code propriétaire (Elastic licence) dans le github publique
+  - Elastic concentre toute son énergie et ne fait progresser que le code propriétaire
+- Amazon se sent lésé par rapport aux nombreux investissements fourni
+#### Réaction d'Amazon :
+- Lancement de Open Distro for ElasticSearch en partenariat avec Netflix et Expedia :
+  - Ce n'est pas un fork
+  - C'est le code open-source du projet ElasticSearch avec les plugins propriétaires qui ont été réécrit en open-source
+  - Amazon continue d'envoyer ses contributions sur le vrai projet
+- C'est Elastic qui se sent cette fois-ci attaqué
+#### Réaction d'Elastic : 
+- Passage du code open-source en licence SSPL
+- L'OSI réagit en déclarant que la licence n'est pas une licence open-source parce qu'elle se veut discriminatoire
+#### Analyse et prise de recul  :
+- Quelles conséquences pour les autres compagnies ? 
+- Qui sont les gagnants et les perdants ? 
+- Est-ce que cette histoire montre les faiblesses de l'open-source ? L'open-source traverse-t-il sa première crise ?
+- Problème récurrent en situation de dilemme de prisonnier 
+#### Seconde réaction d'amazon (a eu lieu après l'examen):
+- Fork total du projet pour créer un vrai projet open-source

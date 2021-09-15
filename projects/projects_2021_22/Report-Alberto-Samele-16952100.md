@@ -1,8 +1,11 @@
 # Open Source Contribution Project
 
 *Author:* Alberto Samele
+
 *NOMA:* 16952100
+
 *Year:* 2021
+
 *Selected project:* [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
 
 # Chapter 1 - Scavenger hunting

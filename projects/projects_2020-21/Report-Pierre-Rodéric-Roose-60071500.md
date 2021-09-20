@@ -27,3 +27,27 @@ The [issue](https://github.com/exercism/v3/issues/923) was about creating a list
 
 ## Goal of the course project
 If I remember the first classes correctly, the teacher said an important goal of the project was to help us get into the "open source world", and interact with another community. For my part, that goal is reached: I'm pleased to have contributed to an open-source project (even though my contribution wasn't accepted yet), and I'm now eager to help other projects that are more related to me/what I use. It helped me realize that contributing was actually not that hard.
+
+
+# Presentation plan (exam): Kali Linux
+
+## Introduction
+* Why I chose to present Kali Linux.
+* Link to my security class.
+
+## Main presentation of Kali Linux
+* General history of Kali Linux.
+* License used.
+* Will from the developer to use open-source tools.
+* Respect standards (avoid problems such as the "Outlook winmail.dat" case).
+
+## Business model
+* Totally free, for ever.
+* Funded (and developed and maintained) by Offensive Security (or Infosec/Offsec).
+* Quick presentation of Offensive Security and their business model.
+
+## Community
+* Dictatorship ? : only a small developer team able to commit.
+* Dictatorship is good to avoid error: security is a complicated field.
+* But open to community: bugtracking, IRC channel, everyone can modify anything about the Linux distribution on their own.
+* Very good documentation.

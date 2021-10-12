@@ -24,6 +24,13 @@ I started by analysing the code and the behavior of the UI during the loading st
 
 As I was in regular contact with the owner of the repository through Github (pull request) and Discord (a server for the community of Coding Space) I was able to respond more precisly to his need. My work has been done over two pull request.
 
-### First Pull Request
+First Pull request :<br>
+The website is divided in five mains pages in which four of them require loading skeleton for cards that represents challenges, solutions to challenges and ressources. For each of them I add to create new React component and adapt some code that was previously used to match the new design. I also used this as an occasion to correct some inconsistencies in the code. Some parts of the cards were the same but implemented in different way. I also noticed the use of two different modules (grid and flex) for the organization of the cards before and after loading. This topic has been left out for the moment.
 
-### Second Pull Request
+This task was longer than difficult and went smoothly. I did strugle a little to make the pull request due to some conflicts but I managed to do it. The pull request has been accepted and merged into the project.
+
+Second Pull request :<br>
+Later on I created a second pull request to implement some minor modifications requested by the owner in order to finally have the final result. This pull request was also accepted and merged into the main branche. 
+
+# Conclusion
+Working on an open source project was completly new to me. By working on this issue I noticed that it would be a good thing to learn more about the git tool to avoid wasting time in the future. I may not have made huge modifications to the project but I'm still proud of what I did.

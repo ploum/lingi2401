@@ -26,3 +26,7 @@ Before contributing to the project, we need to set up a development environment.
 ## Contributing to the Project
 
 [Contributing guidelines](https://github.com/FreshRSS/FreshRSS/blob/master/CONTRIBUTING.md) are also present on GitHub. As I am a first-time contributor, I am primarily focused on issues that are tagged `good first issue`. In [this list](https://github.com/FreshRSS/FreshRSS/contribute), I also filtered issues to select the ones that should be ideally implemented for the next version of the web app (milestone `1.19.0`). [Here](https://github.com/FreshRSS/FreshRSS/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.19.0+label%3A%22good+first+issue%22) are such issues.
+
+### New Keyboard Shortcut "Next Unread Article"
+
+There are some predefined keyboard shortcuts on FreshRSS, such as "Open the next article", "Open the previous article", etc. However, there was no keyboard shortcut to jump directly to the next *unread* article, as suggested by an user ([issue #3393](https://github.com/FreshRSS/FreshRSS/issues/3393)). I implemented it (here is my [PR](https://github.com/FreshRSS/FreshRSS/pull/3891)).

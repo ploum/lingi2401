@@ -21,4 +21,8 @@ I would like to work on this project. FreshRSS is also known for its empathic co
 
 ## Setting up a Development Environment
 
-To set up a development environment before contributing to the project, I just [I just read the developer documentation](https://freshrss.github.io/FreshRSS/en/developers/02_First_steps.html) (it sets up a Docker container that runs a local instance of FreshRSS on http://localhost:8080). The next step is to understand how the source code is structured. There is almost no documentation to explain it (except [this file](https://github.com/FreshRSS/FreshRSS/blob/edge/docs/en/developers/03_Backend/05_Extensions.md), which gives insight about Minz library). Thus, an useful contribution to this project would be to populate it.
+Before contributing to the project, we need to set up a development environment. For that, the [developer documentation](https://freshrss.github.io/FreshRSS/en/developers/02_First_steps.html) is useful. The next step is to understand how the source code is structured. However, there is almost no documentation to explain it (except [this file](https://github.com/FreshRSS/FreshRSS/blob/edge/docs/en/developers/03_Backend/05_Extensions.md), which gives insight about Minz library). Thus, an useful contribution to this project would be to populate it.
+
+## Contributing to the Project
+
+[Contributing guidelines](https://github.com/FreshRSS/FreshRSS/blob/master/CONTRIBUTING.md) are also present on GitHub. As I am a first-time contributor, I am primarily focused on issues that are tagged `good first issue`. In [this list](https://github.com/FreshRSS/FreshRSS/contribute), I also filtered issues to select the ones that should be ideally implemented for the next version of the web app (milestone `1.19.0`). [Here](https://github.com/FreshRSS/FreshRSS/issues?q=is%3Aopen+is%3Aissue+milestone%3A1.19.0+label%3A%22good+first+issue%22) are such issues.

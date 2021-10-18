@@ -10,7 +10,7 @@
 
 # Chapitre 1 : La Recherche
 
-Afin de trouver trouver le projet open-source qui me convient, j'ai réfléchit à quel outils/logiciels j'utilise tout les jours. 
+Afin de trouver le projet open-source qui me convient, j'ai réfléchit à quel outils/logiciels j'utilise tout les jours. 
 
 J'ai tout d'abord pensé à Spotify et voulu contribuer au projet [SpotDL](https://github.com/spotDL/spotify-downloader) qui permet de télécharger ses playlist spotify depuis Youtube. Mais en parlant avec la communauté, j'ai appris que le projet etait considéré comme terminé. 
 
@@ -35,11 +35,11 @@ Je vérifie que personne sur le projet n'ai publié un tel script et ... rien. J
 J'identifie les différents problèmes auxquels je vais faire face pour réaliser le script.
 - Ouvrir une application
 - Changer de bureau
-- Sauvegarder la routine crée
+- Sauvegarder la routine créée
 
 L'ouverture d'une application fut le probleme le plus facile à résoudre. Une fois le lien de l'executable obtenu, on peut le lancer comme un simple processus.
 
-Ensuite, quelques recherche on été nécessaire pour trouver le moyen de changer de bureau. Je trouve alors enfin quelqu'un qui avait le même problème que moi sur [StackOverflow](https://stackoverflow.com/questions/60879235/python-windows-10-launching-an-application-on-a-specific-virtual-desktop-envir).
+Ensuite, quelques recherches on été nécessaire pour trouver le moyen de changer de bureau. Je trouve alors enfin quelqu'un qui avait le même problème que moi sur [StackOverflow](https://stackoverflow.com/questions/60879235/python-windows-10-launching-an-application-on-a-specific-virtual-desktop-envir).
 
 Enfin, je voulais que l'on puisse sauvegarder sa routine et qu'on puisse en avoir plusieurs. J'ai résolus ce soucis en sauvegardant chaque routine dans un fichier sous un un nom de routine. Lors de la sauvegarde, un petit fichier bash est crée pour lancer la routine grâce au script python et un raccourci est ajouté sur le bureau de l'utilisateur pour la lancer.
 
@@ -57,6 +57,6 @@ Pour se faire, j'ai utilisé la librairie PySimpleGUI. J'ai alors designer un pe
 # Chapitre 5 : La contribution
 
 Je poste le script après quelques mise en forme tels que le *README* avec les explications.
-Après quelques heures de stress, le script est accepté par le modérateur et est fusionner avec le reste du projet.
+Après quelques heures de stress, le script est accepté par le modérateur et est fusionné avec le reste du projet.
 
 J'espere que d'autres seront intérressé par ce script est y apporterons des améliorations.

@@ -43,7 +43,7 @@ Ensuite, quelques recherches on été nécessaire pour trouver le moyen de chang
 
 Enfin, je voulais que l'on puisse sauvegarder sa routine et qu'on puisse en avoir plusieurs. J'ai résolus ce soucis en sauvegardant chaque routine dans un fichier sous un un nom de routine. Lors de la sauvegarde, un petit fichier bash est crée pour lancer la routine grâce au script python et un raccourci est ajouté sur le bureau de l'utilisateur pour la lancer.
 
-Le script était enfin prêt. Je l'ai adapté pour que l'on puisse l'utiliser par un terminal de commande. Tout fonctionnait à la perfection. Mais je n'était pas satisfait ...
+Le script était enfin prêt. Il s'appele [FastRun](https://github.com/larymak/Python-project-Scripts/tree/main/FastRun). Je l'ai adapté pour que l'on puisse l'utiliser par un terminal de commande. Tout fonctionnait à la perfection. Mais je n'était pas satisfait ...
 
 # Chapitre 4 : L'interface
 

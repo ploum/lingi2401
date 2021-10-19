@@ -30,3 +30,5 @@ Before contributing to the project, we need to set up a development environment.
 ### New Keyboard Shortcut "Next Unread Article"
 
 There are some predefined keyboard shortcuts on FreshRSS, such as "Open the next article", "Open the previous article", etc. However, there was no keyboard shortcut to jump directly to the next *unread* article, as suggested by an user ([issue #3393](https://github.com/FreshRSS/FreshRSS/issues/3393)). I implemented it (here is my [PR](https://github.com/FreshRSS/FreshRSS/pull/3891)).
+
+This contribution was merged into `FreshRSS:edge` a few days later. Thanks to the discussion around this PR, I also learned the existence of the project [EditorConfig](https://editorconfig.org/) to maintain consistent coding styles (I added unintentionally coding style inconsistencies, by using spaces instead of tabs in some files).

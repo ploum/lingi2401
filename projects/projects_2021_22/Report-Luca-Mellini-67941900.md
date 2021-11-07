@@ -16,7 +16,7 @@ First of all I wanted to give a contribution to a video game I play a lot since 
 
 I kept thinking about other projects but then I thought about Python, which is the programming language I used the most all along my schooling but also the one I would like to keep improving myself with.
 
-So I looked for a Python project when a friend of mine (@RosarNicolas, also student for that course) told me about the website [Good First Issues](https://goodfirstissues.com/) which includes all the issues having the tag "good first issue", sorted by most recent issues.
+So I looked for a Python project when a friend of mine ([@RosarNicolas](https://github.com/RosarNicolas), also student for that course) told me about the website [Good First Issues](https://goodfirstissues.com/) which includes all the issues having the tag "good first issue", sorted by most recent issues.
 
 I finally endend up finding an issue about VerbCalc, a Python library created in order to make calculations from natural language. 
 

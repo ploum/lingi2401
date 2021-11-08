@@ -10,7 +10,7 @@
 
 # Project Selection
 
-Since I'm very new in the world of Open Source, I kind of struggled finding an interesting project I could bring an usefull contribution to. I spent a lot of time just finding the "sector" I wanted to dive into. 
+Since I'm very new in the world of Open Source, I kind of struggled finding an interesting project I could bring an usefull contribution to. I indeed spent a lot of time just finding the "sector" I wanted to dive into. 
 
 First of all I wanted to give a contribution to a video game I play a lot since years, which is [Osu!](https://github.com/ppy/osu). The project is in heavy development, has a lot a contributors, a very complete documentation, but requires a programming language and a Framework I don't master at all. Thereby I couldn't end up finding an issue I could give a contribution to while still feeling myself usefull.
 

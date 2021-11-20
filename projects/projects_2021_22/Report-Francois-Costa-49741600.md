@@ -26,7 +26,7 @@ Finally, I found the [react-native-select-dropdown](https://github.com/AdelRedaa
 
 After analysing the project and its structure, I went to the "issues" section and started looking for which problems I could solve, or which functionality I could add.
 
-I have selected [issue#21](https://github.com/AdelRedaa97/react-native-select-dropdown/issues/21#issue-1032474320) and added the ability to select a second icon that is displayed when the dropdown is open. Currently my pull request has not yet been merged.
+I have selected [issue#21](https://github.com/AdelRedaa97/react-native-select-dropdown/issues/21#issue-1032474320) and added the ability to select a second icon that is displayed when the dropdown is open. After one week without any feedback on my request I decided to review my code and I foud some possible ameliorations. So I updated my code and sent a new version of it. Now I'm waiting for any feedbacks. 
 
 # Conclusion
 

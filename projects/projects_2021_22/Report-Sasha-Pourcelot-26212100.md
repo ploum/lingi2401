@@ -5,27 +5,34 @@
 
 *Year:* 2021
 
-*Selected project:* [The Rust Compiler](https://github.com/rust-lang/rust)
+*Selected project:* [cargo-doc2readme](https://github.com/msrd0/cargo-doc2readme)
 
 # Project research and selection
 
-I discovered the Rust Programming Language when I started University and try
-to participate to its development. I have already done a few contributions
-([1], [2], [3]) which improve the error messages emitted during
-parsing in very specific situations.
+Most Rust projects use tools such as [`cargo-readme`] to generate the README.md
+file of their repository by processing the top-level documentation of library.
 
-[1]: https://github.com/rust-lang/rust/pull/75779
-[2]: https://github.com/rust-lang/rust/pull/76160
-[3]: https://github.com/rust-lang/rust/pull/88546
+I recently opensourced [`dep_doc`], a Rust library that allow to generate code
+snippets in Rust documentation using macros. It works quite well, but it turns
+out that [`cargo-readme`] does not try to expand the macros provided by
+[`dep_doc`], which generates incorrect README files.
 
-As I love this language and the community that formed around it, I'd like to
-contribute to its development again. I think [issue #27300][4] is a good
-candidate. 
+[`dep_doc`]: https://github.com/scrabsha/dep-doc
+[`cargo-readme`]: https://github.com/livioribeiro/cargo-readme
 
-[4]: https://github.com/rust-lang/rust/issues/27300
+Issue [#64] of [`cargo-readme`] reports that some kind of macro-based
+documentation is not handled too. I jumped in and commented the issue,
+suggesting that all the macros should be handled as part of the README
+generation. The issue author responded me that they maintain a prototype
+modified version of [`cargo-readme`], entitled [`cargo-doc2readme`] where they
+try to handle simple macros such as `#![doc = "my documentation string"]`.
 
-# Issue description
+[#64]: https://github.com/livioribeiro/cargo-readme/issues/64
+[`cargo-doc2readme`]: https://github.com/msrd0/cargo-doc2readme
 
-This issue points out that the closures written with the Ruby syntax are
-syntatically valid in Rust, but are not parsed the correct way, which causes
-a very weird error messsage during the type-checking process.
+I opened issue [#37] of [`cargo-doc2readme`] suggesting that we should handle
+`#![doc = macro_call!(...)]` situations and suggested that we could rely on the
+Rust compiler to expand all the macros for us and use this expanded version for
+the README generation.
+
+[`#37`]: https://github.com/msrd0/cargo-doc2readme/issues/37

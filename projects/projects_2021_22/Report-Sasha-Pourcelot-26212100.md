@@ -7,7 +7,7 @@
 
 *Selected project:* [cargo-doc2readme](https://github.com/msrd0/cargo-doc2readme)
 
-# Project research and selection
+# Project research and selection (23/11/2021)
 
 Most Rust projects use tools such as [`cargo-readme`] to generate the README.md
 file of their repository by processing the top-level documentation of library.
@@ -36,3 +36,26 @@ Rust compiler to expand all the macros for us and use this expanded version for
 the README generation.
 
 [`#37`]: https://github.com/msrd0/cargo-doc2readme/issues/37
+
+# Implementation (24/11/2021)
+
+Some problems happened. For instance:
+  - naive implementation would have run the build system (Cargo) inside the
+  Rust build system, which is not permitted (there's a specific lockfile for it).
+  - the code author uses Rust coding style that is not common in the Rust
+  community and quite often considered as not idiomatic. The code is definitely
+  correct and sound, but I was a bit disoriented at first.
+
+Some features are really impressive. For instance, it is able to resolve Rust
+imports. I tried (and failed) to implement such algorithm in [`cargo-breaking`]
+and never did it correctly.
+
+[`cargo-breaking`]: https://github.com/iomentum/cargo-breaking
+
+I expected my pull request to be very small (less than 20 added lines
+approximately) and it turns out that i underestimated the amount of required
+changes. This is fine, i had a lot of fun doing it.
+
+Anyways, I finally opened PR [#38].
+
+[#38]: https://github.com/msrd0/cargo-doc2readme/pull/38

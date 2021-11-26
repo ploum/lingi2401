@@ -1,7 +1,10 @@
 # Open Source Contribution Project
 *Author* : Cyrille Debongnie
+
 *Date* : Novembre 2021
+
 *NOMA* : 92461200
+
 *Selected project*: Exercism
 
 # Research and Selection of the Project
@@ -19,7 +22,7 @@ I asked to be assigned to the issue and the person in charge was very responsive
 In order to contribute to this project I had to install locally the fork of this project. Overall they made it very easy for beginners like me to dive in, as mentionned earlier in the few hours I looked into dozens of different projects, they had the best interface to help new contributors.
 
 # Contribution
-So I was assigned two files to update, I decided to first try and get one of the file to be accepted by them before investing too much work on something that didn't fit their expectations, so I chose to update the "numbers" file, even though their website is top quality, their guidelines on how to improve concepts is rather abstract, as there is not a single right way to operate, but it's more like a mindset.
+I was assigned two files to update, I decided to first try and get one of the file to be accepted by them before investing too much work on something that didn't fit their expectations, so I chose to update the "numbers" file, even though their website is top quality, their guidelines on how to improve concepts is rather abstract, as there is not a single right way to operate, but it's more like a mindset.
 My first [PR][1PR] was denied because of a mix-up I made, I inserted the wrong snippet of code, and ended up with Java code on the JavaScript section. Here the feedback was rather short as the change request by them was solely focused on my code error and not on the rest of the work. After a quick fix, I updated my PR and awaited for the review. It also got rejected but this time I got a very thorough feedback by another contributor. 
 
 
@@ -29,7 +32,7 @@ I didn't expect a few things about the open source world, how nice people could 
 Overall a very interesting experience and I'm glad to see that people are really willing to invest themselves in giving such quality education to as many as possible. 
 It was rather harder than I expected to find the right level of explanations to fit their standards, as of today my contribution is not part of their project, but I'd like to keep on adjusting up until they deem it good enough, since they invested time in accompanying me, it's the least I can do.
 
-[gfi] : https://goodfirstissues.com/
-[exc] : https://exercism.org/dashboard 
-[this] : https://github.com/exercism/javascript/issues/1505
-[1PR] : https://github.com/exercism/javascript/pull/1534
+[gfi]: https://goodfirstissues.com/
+[exc]: https://exercism.org/dashboard 
+[this]: https://github.com/exercism/javascript/issues/1505
+[1PR]: https://github.com/exercism/javascript/pull/1534

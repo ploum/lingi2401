@@ -28,4 +28,4 @@ The contribution consisted on adjusting bad castings in C that generated lots of
 
 ## Merge situation
 
-Still pending, people are busy on the weekend (Contribution has been made on 26th November)
+[Still pending](https://github.com/cilium/cilium/pull/18015), people are busy on the weekend (Contribution has been made on 26th November)

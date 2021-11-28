@@ -8,6 +8,8 @@
 
 *Selected project:* [LeagueStats](https://github.com/vkaelin/LeagueStats)
 
+*License:* ShareAlike 4.0
+
 # Chapter 1 - Finding a project
 
 For the realization of this work, I first had to choose a theme, an interesting project, not too simple but not too difficult either.

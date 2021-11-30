@@ -32,3 +32,11 @@ Before contributing to the project, we need to set up a development environment.
 There are some predefined keyboard shortcuts on FreshRSS, such as "Open the next article", "Open the previous article", etc. However, there was no keyboard shortcut to jump directly to the next *unread* article, as suggested by an user ([issue #3393](https://github.com/FreshRSS/FreshRSS/issues/3393)). I implemented it (here is my [PR](https://github.com/FreshRSS/FreshRSS/pull/3891)).
 
 This contribution was merged into `FreshRSS:edge` a few days later. Thanks to the discussion around this PR, I also learned the existence of the project [EditorConfig](https://editorconfig.org/) to maintain consistent coding styles (I added unintentionally coding style inconsistencies, by using spaces instead of tabs in some files).
+
+### Bug: Using `Space` as Keyboard Shortcut Triggers Additional Scrolling with Google Chrome
+
+After the aforementioned contribution was merged, there was a discussion with another contributor (the author of the issue #3393 actually) about the potential introduction of a bug by my PR: with Google Chrome, using `Space` as a keyboard shortcut (for "Jump to next article", "Jump to the next unread article", ...) leads to an erratic behavior, triggering either additional scrolling or the assigned action for `Space` keyboard.
+
+I was not sure whether I introduced (unvoluntarily) this bug or not: I did not test myself all keyboard shortcuts combinations. We have discussed it [here](https://github.com/FreshRSS/FreshRSS/pull/3891#issuecomment-952015867), before a [new issue was opened for this bug](https://github.com/FreshRSS/FreshRSS/issues/3946), as it was not introduced by my contribution, but appeared somewhere between the latest stable version (1.18.1) and the latest commit before my changes have been accepted and merged.
+
+This issue #3946 is on my todo list, as I now would like to be a detective and to find first when this bug was introduced, in order to understand more precisely how this erratic behavior could appear (and how to tackle it).

@@ -23,3 +23,14 @@ It's a small tool that helps players to analyze their raiding performances by pa
 
 ### Decision
 After having taken the time to think about it, I decided to go for WoWAnalyzer instead of SimulationCraft. This choice is justified by the fact that Simc is just way too big for me. I think I would take way too much time to make a decent contribution to the project in my opinion. Therefore, WowAnalyzer was the default choice in that case !
+
+
+### Issue 
+I worked on two issue :
+[1](https://github.com/WoWAnalyzer/WoWAnalyzer/issues/4121) Where they needed an additional views for conduits(specific in-game talent tree allowing players to have more power) to allow players to see what they were playing during the fight. The issue has been solved in this [PR](https://github.com/WoWAnalyzer/WoWAnalyzer/pull/4602) 
+[2](https://github.com/WoWAnalyzer/WoWAnalyzer/issues/3739) Where they needed to update the class (warlock class) for the current game system as the game evolves. Unfortunately, I've been only able to work on it partially by updating some of the changes made on the class talent tree (being myself a player of the class) in this [PR](https://github.com/WoWAnalyzer/WoWAnalyzer/pull/4607).
+
+
+# Conclusion
+
+To conclude, I am very happy to have made my first open source contribution, it allowed me to familiarize myself with tools like git. It also gave me the opportunity to dive into the details of some react-native libraries and to realize the magnitude that open source projects can take.

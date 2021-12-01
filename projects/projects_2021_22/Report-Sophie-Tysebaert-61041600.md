@@ -39,4 +39,4 @@ After the aforementioned contribution was merged, there was a discussion with an
 
 I was not sure whether I introduced (unvoluntarily) this bug or not: I did not test myself all keyboard shortcuts combinations. We have discussed it [here](https://github.com/FreshRSS/FreshRSS/pull/3891#issuecomment-952015867), before a [new issue was opened for this bug](https://github.com/FreshRSS/FreshRSS/issues/3946), as it was not introduced by my contribution, but appeared somewhere between the latest stable version (1.18.1) and the latest commit before my changes have been accepted and merged.
 
-This issue #3946 is on my todo list, as I now would like to be a detective and to find first when this bug was introduced, in order to understand more precisely how this erratic behavior could appear (and how to tackle it).
+I played the role of a detective in order to find when this bug was introduced (i.e. which is the first commit to include that bug). More details about this issue (and the discussion to tackle this problem) can be found [here](https://github.com/FreshRSS/FreshRSS/issues/3946) (issue #3946).

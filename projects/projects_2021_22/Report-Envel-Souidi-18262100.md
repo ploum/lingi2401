@@ -36,7 +36,7 @@ There was one contributor to this project. Luckily (for me), he had some issues,
 I asked for assignement on an issue, which was about printing strings in different colors (rainbow, random, character by character...). 
 
 I asked him to clarify what he needed, and what I needed to do, so I could start to work on the issue. 
-I made my pull request, and then got merged fairly quickly after. 
+I made my pull request, but sadly my modifications are still not merged.
 
 ## Conclusion
 

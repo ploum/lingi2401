@@ -1,39 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>LINGI2401 - 7. decentralisation and standardisation</title>
-
-    <meta charset="utf-8">
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-    </style>
-  </head>
-  <body>
-    <textarea id="source">
-
-
-class: center, middle
-
 # LINGI 2401 : Open Source strategy for software development
 
-Lionel Dricot
-lionel.dricot@uclouvain.be
-
+Lionel Dricot - lionel.dricot@uclouvain.be
 
 
 ---
-class: center, middle
 
-#Elevator pitch
+# Elevator pitch
 - What is the project. Why is it good. Why do you use it?
 - Why did you choose to contribute to it?
 - What's your contribution? What's your story?
@@ -41,41 +13,30 @@ class: center, middle
 - Give enough to generate curiosity but not too much to not kill it.
 
 ---
-class: center, middle
 
 # Is decentralisation a good thing?
-???
-
-Let's discuss, give examples. Have a proper debate.
----
-class: center, middle
-
-#What should be decentralised and what should not?
-
-???
-
-And what is not? and why don't we have more decentralised solutions?
 
 ---
-class: center, middle
+
+# What should be decentralised and what should not?
+
+
+---
 
 # What is interoperability?
 
 
 ---
-class: center, middle
 
 # Interoperability:
  In time and in space
 
-???
-Anecdote about Microsoft Works
+(example :  Microsoft Works)
 
 
 ---
-class: center, middle
 
-#Interoperability:
+# Interoperability:
  - Hardware
  - Operating System
  - Client
@@ -84,23 +45,19 @@ class: center, middle
 
 
 ---
-class: center, middle
 
 *"Be liberal in what you accept, conservative in what you send."* 
 (Jon Postel)
 
-???
 https://en.wikipedia.org/wiki/Robustness_principle
 
 ---
-class: center, middle
 
 
-#Interoperability through reverse-engineering
+# Interoperability through reverse-engineering
 
 
 ---
-class: center, middle
 
 
 *"Interoperability implies Open standards"*
@@ -108,10 +65,9 @@ class: center, middle
 
 
 ---
-class: center, middle
 
 
-#Different level of interoperability:
+# Different level of interoperability:
 
 1. Active obfuscation
 2. Closed source implementation without obfuscation
@@ -122,15 +78,13 @@ class: center, middle
 
 
 ---
-class: center, middle
 
-background-image: url(https://github.com/ploum/lingi2401/raw/master/images/winmail.jpg)
+![](../images/winmail.jpg)
 
 ---
-class: center, middle
 
 
-#Standardisation is great but usage is more important
+# Standardisation is great but usage is more important
 
 ???
 
@@ -139,32 +93,28 @@ https://ploum.net/winmail-dat-syndrome/
 
 
 ---
-class: center, middle
 
-#De-facto standard
+# De-facto standard
 
 either non-standardised format (word 97) or bad implementation of an existing standard (Outlook emails)
 
 ---
-class: center, middle
 
-#Best standards does not always win
+# Best standards does not always win
 
 ???
 
 So don't try to build the best standard. 
 
 ---
-class: center
 background-image: url(https://github.com/ploum/lingi2401/raw/master/images/betamax.jpg)
 
-#VHS vs Betamax
+# VHS vs Betamax
 
 ???
 https://en.wikipedia.org/wiki/Videotape_format_war
 
 ---
-class: center, middle
 
 ![image](https://github.com/ploum/lingi2401/raw/master/images/standards.png)
 
@@ -175,34 +125,30 @@ https://xkcd.com/927/
 
 
 ---
-class: center, middle
 
-#Open Source & Interoperability
+# Open Source & Interoperability
 
 - Open source cannot work with closed format because implementing them is already a form of documentation. 
 - Open source is good for interoperability. 
 - Interoperability needs open source, at least for a reference implementation.
 
 ---
-class: center, middle
 
 
-#Some standards:
+# Some standards:
 
 ???
 Let's find a few standard together
 
 ---
-class: center, middle
 
-#What is decentralisation?
+# What is decentralisation?
 
 ???
 
 Let's take the time to design a decentralised system.
 
 ---
-class: center, middle
 
 *"Decentralized system: A distributed system in which multiple authorities control different components and no single authority is fully trusted by all others."*
 
@@ -213,10 +159,9 @@ class: center, middle
 
 
 ---
-class: center
 background-image: url(https://github.com/ploum/lingi2401/raw/master/images/decentralised.png)
 
-#Centralised, federated, distributed
+# Centralised, federated, distributed
 
 ???
 
@@ -227,21 +172,18 @@ Baran 64 : www.rand.org/content/dam/rand/pubs/research_memoranda/2006/RM3764.pd
 
 
 ---
-class: center, middle
 
-#Decentralisation is a permanently evolving consensus
+# Decentralisation is a permanently evolving consensus
 The consensus is called "protocol"
 
 ---
-class: center, middle
 
-#Why is decentralisation hard?
+# Why is decentralisation hard?
 
 
 ---
-class: center, middle
 
-#Why is decentralisation hard?
+# Why is decentralisation hard?
 
 - because you cannot trust other members of the network.
 - because you have to agree with them on the protocol
@@ -250,41 +192,35 @@ class: center, middle
 Which means you have to agree on the design
 
 ---
-class: center, middle
 
-#Decentralisation usually means a standardised protocol
+# Decentralisation usually means a standardised protocol
 
 ---
-class: center, middle
 
-#How to break a decentralised network
+# How to break a decentralised network
 - Disagree with the protocol -> fork
 - Pretend to agree but do not respect the protocol
 - Respect the protocol but abuse the system (spam)
 
 ---
-class: center, middle
 
-#Benefits of decentralisation?
+# Benefits of decentralisation?
 
 ---
 
-class: center, middle
 
-#Benefits of decentralisation?
+# Benefits of decentralisation?
 
 1. Better resilience of the overal system (survivability)
 2. Privacy and security (distributed trust)
 
 ---
-class: center, middle
 
-#Problems of decentralisation?
+# Problems of decentralisation?
 
 ---
-class: center, middle
 
-#Problems of decentralisation
+# Problems of decentralisation
 
 1. Agreements on protocol changes
 2. Upgrading nodes of the network
@@ -301,9 +237,8 @@ class: center, middle
 7 is not understood by free software activists.
 
 ---
-class: center, middle
 
-#The choice problem
+# The choice problem
 
 - Free software: you should have the choice
 - Normal person: but if I have the choice, I could be wrong
@@ -311,35 +246,30 @@ class: center, middle
 
 
 ---
-class: center, middle
 
-#Costs vs benefits
+# Costs vs benefits
 
 ???
 That's not a lot of advantages. That's make decentralisation even harder. But maybe those advantages worth it.
 
 ---
-class: center, middle
 
 
 *"Nobody was ever fired for choosing Microsoft"*
 
 ---
-class: center, middle
 
 *"Nobody cares about survivability of others. If it fails for you, you want to be sure it fails for the others too."*
 
 ---
-class: center, middle
 
 
 Most decentralised network still have centralised parts (like routes, directories (see XMPP))
 
 
 ---
-class: center, middle
 
-#Example 1: Mail
+# Example 1: Mail
 - spam problem (and no clear line between "true spam" and "valid mails")
 - standard problem (winmail.dat)
 - not privacy oriented
@@ -347,9 +277,8 @@ class: center, middle
 - non-evolution of the protocol
 
 ---
-class: center, middle
 
-#Example 2: XMPP
+# Example 2: XMPP
 - Slow evolution (example of XEP-0084)
 - Stabilty of servers
 - Confusing UX (Jabber address vs email addresses)
@@ -359,9 +288,8 @@ class: center, middle
 It took XMPP years to have user avatars (XEP-0084) and, worst, the most popular XMPP client at the time (Psi) was using something else.
 
 ---
-class: center, middle
 
-#Example 3: Mastodon
+# Example 3: Mastodon
 - Tendency to centralisation of a few servers
 - Already some spam servers
 - Hard to mention users from other servers (but good UX)
@@ -372,18 +300,16 @@ class: center, middle
 Mastodon is still young and is a very interesting project to follow.
 
 ---
-class: center, middle
 
-#Example 4: Diaspora
+# Example 4: Diaspora
 - Developed as a crowdfunded decentralised Facebook
 - Development mostly stalled
 
 
 ---
-class: center, middle
 
 
-#Some decentralised network widely used:
+# Some decentralised network widely used:
 - Emails
 - WWW  (was not always the case, example AOL)
 - SMS
@@ -391,9 +317,8 @@ class: center, middle
 and… that's mostly it. Anything else?
 
 ---
-class: center, middle
 
-#Recentralisation
+# Recentralisation
 
 - Emails is now mainly centralised to Gmail, Outlook (hotmail) and Yahoo.
 - WWW is now mainly centralised to Google, Facebook, Amazon S3.
@@ -405,14 +330,12 @@ Example of OVH failing.
 SMS is also quite centralised.
 
 ---
-class: center, middle
 
-#The future…
+# The future…
 
 Blockchain
 
 ---
-class: center, middle
 
 …but even bitcoin mining is quite centralised those days
 
@@ -424,7 +347,6 @@ class: center, middle
 
 
 ---
-class: center, middle
 # Should we work on decentralisation ?
 - Why?
 - How?
@@ -432,15 +354,3 @@ class: center, middle
 
 
 
-
-
-
-
-    </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
-    </script>
-    <script>
-      var slideshow = remark.create();
-    </script>
-  </body>
-</html>

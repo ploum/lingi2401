@@ -6,9 +6,17 @@
 
 *Noma* : 21632100
 
-*Selected project* : [Desktop Shop](https://github.com/rbaltrusch/desktop_shop)
+*First selected project* : [Desktop Shop](https://github.com/rbaltrusch/desktop_shop)
 
-*Pull request* : [Pull Request](https://github.com/rbaltrusch/desktop_shop/pull/12)
+*First pull request* : [Pull Request](https://github.com/rbaltrusch/desktop_shop/pull/12)
+
+*License* : MIT
+
+*Second selected project* : [ScholarX](https://github.com/sef-global/scholarx)
+
+*Second pull request* : [Pull Request](https://github.com/sef-global/scholarx/pull/251)
+
+*License* : MIT
 
 ## First approach
 
@@ -31,10 +39,10 @@ I looked closely to some of them by investigating the code, but it honestly seem
 (and I barely know this language) but also because these issues require a good understanding of the global context to be solved, and 
 obviously I do not have this understanding.
 
-I asked the developer is there was any other way I could help with this project, and he told me that I could maybe help to translate the game to my language. 
+I asked the developer if there was any other way I could help with this project, and he told me that I could maybe help to translate the game to my language. 
 Unluckily, the work was already done, a complete French translation of the game was already done, so there was nothing I could do.
 
-## Making a Contribution 
+## Making my first contribution 
 
 Even though, I was glad that I found such a cool project with a very active community, it was still an unsuccessful attempt 
 since I did not really help on this project.
@@ -64,17 +72,43 @@ Obviously, it is not easy when you are not the one who wrote the code.
 
 I wrote an explanation to the project owner, and I made a pull request.
 
-I am still waiting for an answer, and I hope I will be merged (should be granted as my fix is working just fine).
+He made a review of my code and suggested some minor changes to make it better.
+I followed his instructions : I used a pre-built function and changed the location of my fix, 
+so it does not have to be used several time but only once, hence it was more modular.
+After that, he merged my pull request.
+
+## Working on a bigger project
+
+After making this first contribution to a humble project, I searched for a bigger one with several contributor.
+I found a project named ScholarX which is platform providing a 6-month program for Sri-Lankan undergraduate 
+who would like to get free premium mentoring during their study period.
+
+The issue I worked on is the following : Preventing duplicate mentee applications.
+A mentee can select the course we want to attend ,but I needed to make sure a mentee cannot select it twice.
+The code was easy, it only required an SQL request on two tables to see if an application did not already exist.
+If an application did already exist, the application is simply cancelled and an error message appears.
+
+After submitting my code, some of my mistakes were corrected by a developer.
+Once my code successfully passed all the tests, my pull request was merged.
+
+I chatted with this developer to ask him some questions about this project.
+I learned it was a free to use platform aiming at creating a sustainable flow of knowledge back into Sri Lanka
+It is meant to help fill some void left by the country's brain drain.
+It was a fascinating exchange that made me understand the relevancy of this project, it was great.
 
 ## Conclusion
 
-It was a lot of fun discovering these two projects, I am still frustrated I could not help on the first one since it was really
+It was a lot of fun discovering these three projects, I am still frustrated I could not help on the first one since it was really
 what I wanted to do initially. However, it helped me to realise that contributing to this kind of huge projects require 
 at least a small experience on working in such an environment and is very time-consuming.
 Still, seeing a massive community working on an open source game was really cool.
 
 Regarding the shop application, it was a much more humble project, but it was really satisfying to feel that I am able
 to fix some minor issues and be helpful to someone.
+
+I am glad I finally found a nice project such as ScholarX, it is really satisfying to help on a real platform used by other people,
+it made me feel useful and the community was great, so it was an amazing experience.
+I am used to working on my own projects but the feeling is not the same with open source projects.
 
 I was not aware of this "issues" thing on GitHub and I find this feature of solving other people problems really awesome.
 Maybe I will keep looking for some of them in the future.

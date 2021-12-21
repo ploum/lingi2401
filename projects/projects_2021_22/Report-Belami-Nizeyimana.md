@@ -25,4 +25,14 @@ The first contribution I made was to give to the different pieces of the chess g
 Before, the pieces were only represented by letters, 'p' for pawns, 'K' for knights, 'R' for rooks, 'B' for bishops, 'K' for kings and 'Q' for queens. So I decided to illustrate all these pieces with their respective images. 
 
 
-"R" -> '♜', "N" -> '♞', "B" -> '♝', "K" -> '♚', "Q" -> '♛', "P" -> '♟',
+"R" -> '♜', "N" -> '♞', "B" -> '♝', "K" -> '♚', "Q" -> '♛', "P" -> '♟'
+
+![enter image description here](https://i.imgur.com/qQrINcA.png)
+
+# Chessboard
+
+I decided to add a kind of chessboard to the game. From now on, players will have the possibility to play with black and white squares like a real Chess game. However, after thinking about it, some may find that there is too many images in the game because of this. In fact, before playing the game seems to be perfeclty 'balanced' but it's only after playing a few moves that you realize that the game is a bit messy with all its illustrations. So, I decided to keep the points : '.' instead of squares
+
+![enter image description here](https://i.imgur.com/UjypQIi.png)
+
+![enter image description here](https://i.imgur.com/ACxNG2v.png)

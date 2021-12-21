@@ -45,4 +45,12 @@ When I played the game for the first time, the first thing that bothered me was 
 
 After playing a entire game I noticed that not all the rules were respected. Indeed, the game did not stop after one of the two kings was taken. In other words, the game continue even after checkmate. Unfortunately, I couldn't fix this bug but I left a 'TODO' in the code so that the bug could be fixed by another contributor.
 
+## Conclusion
+
+My conclusion is that I realized that the project did not lack a lot of things. My contributions were mainly small ones which I think will improve the project. This was my very first contribution to an open source project, I learned a lot about contributing to this kind of project. It allowed me to broaden my horizons.
+
+
+
+[Pull request](https://github.com/marcusbuffett/command-line-chess/compare/master...nizebelami:master)
+
 

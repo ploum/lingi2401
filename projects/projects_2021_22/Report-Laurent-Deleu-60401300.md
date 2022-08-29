@@ -39,6 +39,8 @@ Once the installation proceeded, I could create the button but it wouldn’t sho
 
 As I couldn’t propose even a minimalist working version of my feature, I decided to contribute in another way : improving the installation tutorial. Remembering I was lost when having to run the project, I wrote down a dedicated additional section which gives the command line to use, as well as tips to facilitate and accelerate the launch for developers.
 
+![](newTutoSection.png)
+
 I sent the [pull request](https://github.com/ADE-Scheduler/ADE-Scheduler/pull/878) on August 29th 2022 and one of the project creators answered a few minutes after. He suggested me some small changes that I committed. He also added a few screenshots to illustrate my explanations. The pull request was finally merged and closed on the same day. The result is the “6. Launch” section of the following [setup tutorial](https://ade-scheduler.readthedocs.io/en/latest/tutorials/setup.html) (the server might not have been updated by the time you read this report).
 
 In addition, I also sent a mail to the creators concerning my issues when dealing with Bootstrap. One other creator confirmed that it wasn’t possible to use a single variable as “it's hard-coded CSS...” . He still gave me a useful link that may help me in the case I would keep on working on the feature.

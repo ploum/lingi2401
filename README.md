@@ -1,13 +1,8 @@
-# LINGI2401
-LINGI2401 - Open Source Strategy for Software Development
+**IMPORTANT**
 
-Slides are in the public domain (licence CC0)
+The official repository has been moved to 
+https://forge.uclouvain.be/ldricot/lingi2401
 
-Fork or clone this repository. Open slides/index.html file in your browser. Press “P” to see the comments for each slides.
+The reason is that too much students didn’t understood that Github was only one Git hosting platform accross many. Github is also owned by Microsoft and we believe that we should never force a student to create an account on a Microsoft platform.
 
-Please contribute your notes to this course, as comments for the slides or even as separate notes. This will help students that cannot attend the course.
-
-
-## Questions
-
-Use github tickets to ask questions. 
+(which is sad because university emails are handled… by Microsoft.)
